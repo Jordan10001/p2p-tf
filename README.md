@@ -2,7 +2,7 @@
 
 A production-ready, decentralized, LAN-based file transfer application built in Go for Windows 10 and 11. It allows multiple computers on the same Local Area Network (LAN) to automatically discover each other and transfer files/directories directly without using any central server, relay server, cloud storage, or active internet connection.
 
-It provides a modern user experience comparable to AirDrop or LocalSend, running fully standalone inside `p2p-transfer.exe` with zero external runtimes (no Node.js, Python, or Java required).
+It provides a modern user experience comparable to AirDrop or LocalSend, running fully standalone inside `p2p-transfer.exe` with zero external runtimes.
 
 ## Features
 
@@ -79,6 +79,11 @@ No external compilation tools (like GCC for CGO) are required. Build natively in
 4. To compile as a background Windows GUI application (hiding the black command prompt window when launching `p2p-transfer.exe`), append the window flags:
    ```powershell
    go build -ldflags="-H windowsgui" -o p2p-transfer.exe cmd/p2p-transfer/main.go
+   ```
+5. Run the standard compile command:
+   ```powershell
+   cd cmd/p2p-transfer
+   go run main.go
    ```
 
 ---
