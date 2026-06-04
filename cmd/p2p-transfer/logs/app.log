@@ -1,0 +1,61 @@
+[INFO] 2026/06/04 01:25:46 Starting P2P File Transfer Application...
+[INFO] 2026/06/04 01:25:46 TCP Receiver started on :50005
+[INFO] 2026/06/04 01:25:46 WebSocket server starting on :8081
+[INFO] 2026/06/04 01:25:46 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 01:25:46 Fiber web server starting on http://localhost:8080
+[INFO] 2026/06/04 01:25:47 Opening dashboard in browser...
+[INFO] 2026/06/04 01:25:48 WebSocket client connected
+[INFO] 2026/06/04 01:25:48 Manual scan requested by user
+[INFO] 2026/06/04 01:25:48 Discovery service stopped
+[INFO] 2026/06/04 01:25:48 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 01:26:03 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 01:26:18 Manual scan requested by user
+[INFO] 2026/06/04 01:26:18 Discovery service stopped
+[INFO] 2026/06/04 01:26:18 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 01:26:27 WebSocket client disconnected
+[INFO] 2026/06/04 01:26:30 Exit requested from system tray. Shutting down...
+[INFO] 2026/06/04 01:26:30 Discovery service stopped
+[INFO] 2026/06/04 01:26:30 TCP Receiver stopped
+[INFO] 2026/06/04 23:02:24 Starting P2P File Transfer Application...
+[INFO] 2026/06/04 23:02:24 TCP Receiver started on :50005
+[INFO] 2026/06/04 23:02:24 WebSocket server starting on :8081
+[INFO] 2026/06/04 23:02:24 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:02:24 Fiber web server starting on http://localhost:8080
+[INFO] 2026/06/04 23:02:25 Opening dashboard in browser...
+[INFO] 2026/06/04 23:02:31 WebSocket client connected
+[INFO] 2026/06/04 23:02:31 Manual scan requested by user
+[INFO] 2026/06/04 23:02:31 Discovery service stopped
+[INFO] 2026/06/04 23:02:32 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:02:41 Manual scan requested by user
+[INFO] 2026/06/04 23:02:41 Discovery service stopped
+[INFO] 2026/06/04 23:02:42 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:02:51 Manual scan requested by user
+[INFO] 2026/06/04 23:02:51 Discovery service stopped
+[INFO] 2026/06/04 23:02:51 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:03:01 Manual scan requested by user
+[INFO] 2026/06/04 23:03:01 Discovery service stopped
+[INFO] 2026/06/04 23:03:02 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:03:11 Manual scan requested by user
+[INFO] 2026/06/04 23:03:11 Discovery service stopped
+[INFO] 2026/06/04 23:03:11 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:03:21 Manual scan requested by user
+[INFO] 2026/06/04 23:03:21 Discovery service stopped
+[INFO] 2026/06/04 23:03:21 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:03:31 Manual scan requested by user
+[INFO] 2026/06/04 23:03:31 Discovery service stopped
+[INFO] 2026/06/04 23:03:31 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:03:41 Manual scan requested by user
+[INFO] 2026/06/04 23:03:41 Discovery service stopped
+[INFO] 2026/06/04 23:03:41 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:03:51 Manual scan requested by user
+[INFO] 2026/06/04 23:03:51 Discovery service stopped
+[INFO] 2026/06/04 23:03:51 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:04:01 Manual scan requested by user
+[INFO] 2026/06/04 23:04:01 Discovery service stopped
+[INFO] 2026/06/04 23:04:01 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:04:11 Manual scan requested by user
+[INFO] 2026/06/04 23:04:11 Discovery service stopped
+[INFO] 2026/06/04 23:04:11 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:04:18 Received OS signal: interrupt. Shutting down...
+[INFO] 2026/06/04 23:04:18 Discovery service stopped
+[INFO] 2026/06/04 23:04:18 TCP Receiver stopped
