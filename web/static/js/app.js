@@ -898,7 +898,19 @@ function initClickHandlers() {
     if (clearHistoryBtn) {
         clearHistoryBtn.addEventListener('click', () => {
             if (confirm("Are you sure you want to delete all transfer logs?")) {
-                fetch('/api/clear-history', { method: 'POST' });
+                fetch('/api/clear-history', { method: 'POST' })
+                .then(res => res.json())
+                .then(data => {
+                    if (data.status === 'cleared') {
+                        showToast('success', 'Transfer logs cleared successfully');
+                        renderHistory([]); // Clear UI table immediately
+                    } else {
+                        showToast('error', 'Failed to clear logs');
+                    }
+                })
+                .catch(() => {
+                    showToast('error', 'Failed to clear logs due to a network error');
+                });
             }
         });
     }
