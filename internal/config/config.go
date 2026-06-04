@@ -51,7 +51,6 @@ func Init() (*models.Settings, error) {
 			AutoScan:                         true,
 			MinimizeToTray:                   true,
 			StartWithWindows:                 false,
-			Theme:                            "dark",
 		}
 
 		if err := Save(&settings); err != nil {

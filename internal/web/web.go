@@ -54,7 +54,24 @@ func Start(port int) {
 
 	// Get current settings
 	api.Get("/settings", func(c *fiber.Ctx) error {
-		return c.JSON(config.Get())
+		localIP, _ := utils.GetLocalIP()
+		cfg := config.Get()
+		return c.JSON(fiber.Map{
+			"deviceId":                         cfg.DeviceID,
+			"deviceName":                       cfg.DeviceName,
+			"hostname":                         cfg.Hostname,
+			"transferPort":                     cfg.TransferPort,
+			"downloadDir":                      cfg.DownloadDir,
+			"showNotifications":                cfg.ShowNotifications,
+			"showTransferCompleteNotification": cfg.ShowTransferCompleteNotification,
+			"autoOpenFolder":                   cfg.AutoOpenFolder,
+			"autoAccept":                       cfg.AutoAccept,
+			"enableDiscovery":                  cfg.EnableDiscovery,
+			"autoScan":                         cfg.AutoScan,
+			"minimizeToTray":                   cfg.MinimizeToTray,
+			"startWithWindows":                 cfg.StartWithWindows,
+			"localIp":                          localIP,
+		})
 	})
 
 	// Save settings

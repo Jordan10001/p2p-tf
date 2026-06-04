@@ -88,10 +88,7 @@ function updateSelectedItemsUI(files) {
 
 // On Page Load
 document.addEventListener('DOMContentLoaded', () => {
-    // 1. Theme Check
-    initTheme();
-
-    // 2. Switch Sidebar Tabs
+    // 1. Switch Sidebar Tabs
     initSidebar();
 
     // 3. Load Current Config
@@ -104,25 +101,35 @@ document.addEventListener('DOMContentLoaded', () => {
     initClickHandlers();
 });
 
-// Theme Management
-function initTheme() {
-    applyTheme('dark');
-}
-
-function applyTheme(theme) {
-    document.documentElement.classList.add('dark');
-    document.documentElement.classList.remove('light');
-    localStorage.setItem('theme', 'dark');
-}
-
 // Sidebar Navigation
 function initSidebar() {
     const menuItems = document.querySelectorAll('.sidebar-item');
     const panels = document.querySelectorAll('.content-panel');
 
+    // Restore last active tab from localStorage if exists
+    const activeTab = localStorage.getItem('activeTab') || 'dashboard-panel';
+    menuItems.forEach(item => {
+        const targetPanel = item.getAttribute('data-target');
+        if (targetPanel === activeTab) {
+            item.classList.add('active', 'bg-indigo-600', 'text-white', 'shadow-lg', 'shadow-indigo-600/15');
+            item.classList.remove('text-slate-400', 'hover:text-slate-200', 'hover:bg-white/5');
+        } else {
+            item.classList.remove('active', 'bg-indigo-600', 'text-white', 'shadow-lg', 'shadow-indigo-600/15');
+            item.classList.add('text-slate-400', 'hover:text-slate-200', 'hover:bg-white/5');
+        }
+    });
+    panels.forEach(panel => {
+        if (panel.id === activeTab) {
+            panel.classList.remove('hidden');
+        } else {
+            panel.classList.add('hidden');
+        }
+    });
+
     menuItems.forEach(item => {
         item.addEventListener('click', () => {
             const targetPanel = item.getAttribute('data-target');
+            localStorage.setItem('activeTab', targetPanel);
             
             menuItems.forEach(i => {
                 i.classList.remove('active', 'bg-indigo-600', 'text-white', 'shadow-lg', 'shadow-indigo-600/15');
@@ -150,10 +157,7 @@ async function loadSettings() {
         const settings = await res.json();
         currentSettings = settings;
 
-        // Apply theme from backend config if exists
-        if (settings.theme) {
-            applyTheme(settings.theme);
-        }
+
 
         // Fill form fields in Settings Tab
         const devNameInput = document.getElementById('settings-device-name');
@@ -187,6 +191,10 @@ async function loadSettings() {
         // Update My Device Name Card
         const localDeviceName = document.getElementById('local-device-name');
         if (localDeviceName) localDeviceName.textContent = settings.deviceName;
+        const localDeviceIp = document.getElementById('local-device-ip');
+        if (localDeviceIp) {
+            localDeviceIp.textContent = settings.localIp ? `${settings.localIp}:${settings.transferPort}` : '';
+        }
         
     } catch (err) {
         console.error('Failed to load settings:', err);
@@ -849,8 +857,7 @@ function initClickHandlers() {
                 enableDiscovery: document.getElementById('settings-enable-discovery').checked,
                 autoScan: document.getElementById('settings-auto-scan').checked,
                 minimizeToTray: document.getElementById('settings-minimize-tray').checked,
-                startWithWindows: document.getElementById('settings-start-windows').checked,
-                theme: currentSettings.theme || 'dark'
+                startWithWindows: document.getElementById('settings-start-windows').checked
             };
             saveSettings(updated);
         });
@@ -863,11 +870,17 @@ function initClickHandlers() {
             fetch('/api/select-folder', { method: 'POST' })
             .then(res => res.json())
             .then(data => {
-                if (data.added && data.added.length > 0) {
-                    // Since it adds it to queue, we can get the actual folder path chosen and set it.
-                    // Wait, let's load settings again or update the input field directly
-                    loadSettings();
+                if (data.files && data.files.length > 0) {
+                    const selectedFolder = data.files[0].path;
+                    const downloadDirInput = document.getElementById('settings-download-dir');
+                    if (downloadDirInput) {
+                        downloadDirInput.value = selectedFolder;
+                    }
                 }
+            })
+            .catch(err => {
+                console.error('Failed to select folder:', err);
+                showToast('error', 'Failed to browse folder');
             });
         });
     }

@@ -17,7 +17,6 @@ type Settings struct {
 	AutoScan                       bool   `json:"autoScan"`
 	MinimizeToTray                 bool   `json:"minimizeToTray"`
 	StartWithWindows               bool   `json:"startWithWindows"`
-	Theme                          string `json:"theme"` // "light" or "dark"
 }
 
 // Device represents a peer on the local network.

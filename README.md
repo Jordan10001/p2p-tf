@@ -74,15 +74,15 @@ No external compilation tools (like GCC for CGO) are required. Build natively in
 2. Open PowerShell in the `/p2p-transfer` directory.
 3. Run the standard compile command:
    ```powershell
-   go build -o p2p-transfer.exe cmd/p2p-transfer/main.go
+   go build -o p2p-transfer.exe cmd/p2p-tf/main.go
    ```
 4. To compile as a background Windows GUI application (hiding the black command prompt window when launching `p2p-transfer.exe`), append the window flags:
    ```powershell
-   go build -ldflags="-H windowsgui" -o p2p-transfer.exe cmd/p2p-transfer/main.go
+   go build -ldflags="-H windowsgui" -o p2p-transfer.exe cmd/p2p-tf/main.go
    ```
 5. Run the standard compile command:
    ```powershell
-   cd cmd/p2p-transfer
+   cd cmd/p2p-tf
    go run main.go
    ```
 

@@ -1,0 +1,1320 @@
+[INFO] 2026/06/04 01:25:46 Starting P2P File Transfer Application...
+[INFO] 2026/06/04 01:25:46 TCP Receiver started on :50005
+[INFO] 2026/06/04 01:25:46 WebSocket server starting on :8081
+[INFO] 2026/06/04 01:25:46 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 01:25:46 Fiber web server starting on http://localhost:8080
+[INFO] 2026/06/04 01:25:47 Opening dashboard in browser...
+[INFO] 2026/06/04 01:25:48 WebSocket client connected
+[INFO] 2026/06/04 01:25:48 Manual scan requested by user
+[INFO] 2026/06/04 01:25:48 Discovery service stopped
+[INFO] 2026/06/04 01:25:48 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 01:26:03 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 01:26:18 Manual scan requested by user
+[INFO] 2026/06/04 01:26:18 Discovery service stopped
+[INFO] 2026/06/04 01:26:18 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 01:26:27 WebSocket client disconnected
+[INFO] 2026/06/04 01:26:30 Exit requested from system tray. Shutting down...
+[INFO] 2026/06/04 01:26:30 Discovery service stopped
+[INFO] 2026/06/04 01:26:30 TCP Receiver stopped
+[INFO] 2026/06/04 23:02:24 Starting P2P File Transfer Application...
+[INFO] 2026/06/04 23:02:24 TCP Receiver started on :50005
+[INFO] 2026/06/04 23:02:24 WebSocket server starting on :8081
+[INFO] 2026/06/04 23:02:24 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:02:24 Fiber web server starting on http://localhost:8080
+[INFO] 2026/06/04 23:02:25 Opening dashboard in browser...
+[INFO] 2026/06/04 23:02:31 WebSocket client connected
+[INFO] 2026/06/04 23:02:31 Manual scan requested by user
+[INFO] 2026/06/04 23:02:31 Discovery service stopped
+[INFO] 2026/06/04 23:02:32 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:02:41 Manual scan requested by user
+[INFO] 2026/06/04 23:02:41 Discovery service stopped
+[INFO] 2026/06/04 23:02:42 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:02:51 Manual scan requested by user
+[INFO] 2026/06/04 23:02:51 Discovery service stopped
+[INFO] 2026/06/04 23:02:51 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:03:01 Manual scan requested by user
+[INFO] 2026/06/04 23:03:01 Discovery service stopped
+[INFO] 2026/06/04 23:03:02 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:03:11 Manual scan requested by user
+[INFO] 2026/06/04 23:03:11 Discovery service stopped
+[INFO] 2026/06/04 23:03:11 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:03:21 Manual scan requested by user
+[INFO] 2026/06/04 23:03:21 Discovery service stopped
+[INFO] 2026/06/04 23:03:21 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:03:31 Manual scan requested by user
+[INFO] 2026/06/04 23:03:31 Discovery service stopped
+[INFO] 2026/06/04 23:03:31 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:03:41 Manual scan requested by user
+[INFO] 2026/06/04 23:03:41 Discovery service stopped
+[INFO] 2026/06/04 23:03:41 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:03:51 Manual scan requested by user
+[INFO] 2026/06/04 23:03:51 Discovery service stopped
+[INFO] 2026/06/04 23:03:51 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:04:01 Manual scan requested by user
+[INFO] 2026/06/04 23:04:01 Discovery service stopped
+[INFO] 2026/06/04 23:04:01 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:04:11 Manual scan requested by user
+[INFO] 2026/06/04 23:04:11 Discovery service stopped
+[INFO] 2026/06/04 23:04:11 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:04:18 Received OS signal: interrupt. Shutting down...
+[INFO] 2026/06/04 23:04:18 Discovery service stopped
+[INFO] 2026/06/04 23:04:18 TCP Receiver stopped
+[INFO] 2026/06/04 23:13:55 Starting P2P File Transfer Application...
+[INFO] 2026/06/04 23:13:55 TCP Receiver started on :50005
+[INFO] 2026/06/04 23:13:55 WebSocket server starting on :8081
+[INFO] 2026/06/04 23:13:55 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:13:56 Fiber web server starting on http://localhost:8080
+[INFO] 2026/06/04 23:13:56 WebSocket client connected
+[INFO] 2026/06/04 23:13:56 Manual scan requested by user
+[INFO] 2026/06/04 23:13:56 Discovery service stopped
+[INFO] 2026/06/04 23:13:56 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:13:57 Opening dashboard in browser...
+[INFO] 2026/06/04 23:13:57 WebSocket client connected
+[INFO] 2026/06/04 23:13:57 Manual scan requested by user
+[INFO] 2026/06/04 23:13:57 Discovery service stopped
+[INFO] 2026/06/04 23:13:58 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:14:03 WebSocket client disconnected
+[INFO] 2026/06/04 23:14:04 WebSocket client connected
+[INFO] 2026/06/04 23:14:04 Manual scan requested by user
+[INFO] 2026/06/04 23:14:04 Discovery service stopped
+[INFO] 2026/06/04 23:14:04 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:14:06 Manual scan requested by user
+[INFO] 2026/06/04 23:14:06 Discovery service stopped
+[INFO] 2026/06/04 23:14:06 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:14:14 Manual scan requested by user
+[INFO] 2026/06/04 23:14:14 Discovery service stopped
+[INFO] 2026/06/04 23:14:14 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:14:16 Manual scan requested by user
+[INFO] 2026/06/04 23:14:16 Discovery service stopped
+[INFO] 2026/06/04 23:14:16 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:14:24 Manual scan requested by user
+[INFO] 2026/06/04 23:14:24 Discovery service stopped
+[INFO] 2026/06/04 23:14:24 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:14:26 Manual scan requested by user
+[INFO] 2026/06/04 23:14:26 Discovery service stopped
+[INFO] 2026/06/04 23:14:26 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:14:34 Manual scan requested by user
+[INFO] 2026/06/04 23:14:34 Discovery service stopped
+[INFO] 2026/06/04 23:14:34 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:14:36 Manual scan requested by user
+[INFO] 2026/06/04 23:14:36 Discovery service stopped
+[INFO] 2026/06/04 23:14:36 WebSocket client disconnected
+[INFO] 2026/06/04 23:14:36 WebSocket client connected
+[INFO] 2026/06/04 23:14:36 Manual scan requested by user
+[INFO] 2026/06/04 23:14:36 Discovery service stopped
+[INFO] 2026/06/04 23:14:36 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:14:37 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:14:42 WebSocket client disconnected
+[INFO] 2026/06/04 23:14:42 WebSocket client connected
+[INFO] 2026/06/04 23:14:42 Manual scan requested by user
+[INFO] 2026/06/04 23:14:42 Discovery service stopped
+[INFO] 2026/06/04 23:14:43 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:14:46 Manual scan requested by user
+[INFO] 2026/06/04 23:14:46 Discovery service stopped
+[INFO] 2026/06/04 23:14:46 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:14:46 WebSocket client disconnected
+[INFO] 2026/06/04 23:14:47 WebSocket client disconnected
+[INFO] 2026/06/04 23:14:50 Received OS signal: interrupt. Shutting down...
+[INFO] 2026/06/04 23:14:50 Discovery service stopped
+[INFO] 2026/06/04 23:14:50 TCP Receiver stopped
+[INFO] 2026/06/04 23:14:52 Starting P2P File Transfer Application...
+[INFO] 2026/06/04 23:14:52 TCP Receiver started on :50005
+[INFO] 2026/06/04 23:14:52 WebSocket server starting on :8081
+[INFO] 2026/06/04 23:14:52 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:14:53 Fiber web server starting on http://localhost:8080
+[INFO] 2026/06/04 23:14:54 Opening dashboard in browser...
+[INFO] 2026/06/04 23:14:54 WebSocket client connected
+[INFO] 2026/06/04 23:14:54 Manual scan requested by user
+[INFO] 2026/06/04 23:14:54 Discovery service stopped
+[INFO] 2026/06/04 23:14:55 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:15:02 WebSocket client disconnected
+[INFO] 2026/06/04 23:15:02 WebSocket client connected
+[INFO] 2026/06/04 23:15:02 Manual scan requested by user
+[INFO] 2026/06/04 23:15:02 Discovery service stopped
+[INFO] 2026/06/04 23:15:02 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:15:03 WebSocket client disconnected
+[INFO] 2026/06/04 23:15:03 WebSocket client connected
+[INFO] 2026/06/04 23:15:03 Manual scan requested by user
+[INFO] 2026/06/04 23:15:03 Discovery service stopped
+[INFO] 2026/06/04 23:15:04 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:15:04 WebSocket client disconnected
+[INFO] 2026/06/04 23:15:04 WebSocket client connected
+[INFO] 2026/06/04 23:15:04 Manual scan requested by user
+[INFO] 2026/06/04 23:15:04 Discovery service stopped
+[INFO] 2026/06/04 23:15:05 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:15:05 WebSocket client disconnected
+[INFO] 2026/06/04 23:15:05 WebSocket client connected
+[INFO] 2026/06/04 23:15:05 Manual scan requested by user
+[INFO] 2026/06/04 23:15:05 Discovery service stopped
+[INFO] 2026/06/04 23:15:05 WebSocket client disconnected
+[INFO] 2026/06/04 23:15:05 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:15:05 WebSocket client connected
+[INFO] 2026/06/04 23:15:05 Manual scan requested by user
+[INFO] 2026/06/04 23:15:05 Discovery service stopped
+[INFO] 2026/06/04 23:15:06 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:15:15 Manual scan requested by user
+[INFO] 2026/06/04 23:15:15 Discovery service stopped
+[INFO] 2026/06/04 23:15:16 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:15:20 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 23:15:25 Manual scan requested by user
+[INFO] 2026/06/04 23:15:25 Discovery service stopped
+[INFO] 2026/06/04 23:15:26 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:15:35 Manual scan requested by user
+[INFO] 2026/06/04 23:15:35 Discovery service stopped
+[INFO] 2026/06/04 23:15:36 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:15:46 Manual scan requested by user
+[INFO] 2026/06/04 23:15:46 Discovery service stopped
+[INFO] 2026/06/04 23:15:46 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:15:56 Manual scan requested by user
+[INFO] 2026/06/04 23:15:56 Discovery service stopped
+[INFO] 2026/06/04 23:15:56 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:16:06 Manual scan requested by user
+[INFO] 2026/06/04 23:16:06 Discovery service stopped
+[INFO] 2026/06/04 23:16:06 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:16:16 Manual scan requested by user
+[INFO] 2026/06/04 23:16:16 Discovery service stopped
+[INFO] 2026/06/04 23:16:16 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:16:26 Manual scan requested by user
+[INFO] 2026/06/04 23:16:26 Discovery service stopped
+[INFO] 2026/06/04 23:16:26 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:16:36 Manual scan requested by user
+[INFO] 2026/06/04 23:16:36 Discovery service stopped
+[INFO] 2026/06/04 23:16:36 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:16:46 Manual scan requested by user
+[INFO] 2026/06/04 23:16:46 Discovery service stopped
+[INFO] 2026/06/04 23:16:46 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:16:56 Manual scan requested by user
+[INFO] 2026/06/04 23:16:56 Discovery service stopped
+[INFO] 2026/06/04 23:16:56 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:17:11 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 23:17:26 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 23:17:36 Manual scan requested by user
+[INFO] 2026/06/04 23:17:36 Discovery service stopped
+[INFO] 2026/06/04 23:17:36 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:17:51 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 23:18:06 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 23:18:21 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 23:18:36 Manual scan requested by user
+[INFO] 2026/06/04 23:18:36 Discovery service stopped
+[INFO] 2026/06/04 23:18:36 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:18:51 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 23:19:06 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 23:19:21 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 23:19:36 Manual scan requested by user
+[INFO] 2026/06/04 23:19:36 Discovery service stopped
+[INFO] 2026/06/04 23:19:36 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:19:51 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 23:20:06 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 23:20:21 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 23:20:36 Manual scan requested by user
+[INFO] 2026/06/04 23:20:36 Discovery service stopped
+[INFO] 2026/06/04 23:20:36 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:20:51 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 23:21:06 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 23:21:21 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 23:21:36 Manual scan requested by user
+[INFO] 2026/06/04 23:21:36 Discovery service stopped
+[INFO] 2026/06/04 23:21:36 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:21:51 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 23:22:06 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 23:22:21 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 23:22:36 Manual scan requested by user
+[INFO] 2026/06/04 23:22:36 Discovery service stopped
+[INFO] 2026/06/04 23:22:36 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:22:51 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 23:23:06 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 23:23:21 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 23:23:36 Manual scan requested by user
+[INFO] 2026/06/04 23:23:36 Discovery service stopped
+[INFO] 2026/06/04 23:23:36 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:23:51 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 23:23:56 Manual scan requested by user
+[INFO] 2026/06/04 23:23:56 Discovery service stopped
+[INFO] 2026/06/04 23:23:56 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:23:57 WebSocket client disconnected
+[INFO] 2026/06/04 23:23:57 WebSocket client connected
+[INFO] 2026/06/04 23:23:57 Manual scan requested by user
+[INFO] 2026/06/04 23:23:57 Discovery service stopped
+[INFO] 2026/06/04 23:23:58 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:24:03 WebSocket client disconnected
+[INFO] 2026/06/04 23:24:03 WebSocket client connected
+[INFO] 2026/06/04 23:24:03 Manual scan requested by user
+[INFO] 2026/06/04 23:24:03 Discovery service stopped
+[INFO] 2026/06/04 23:24:03 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:24:13 Manual scan requested by user
+[INFO] 2026/06/04 23:24:13 Discovery service stopped
+[INFO] 2026/06/04 23:24:13 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:24:17 WebSocket client disconnected
+[INFO] 2026/06/04 23:24:17 WebSocket client connected
+[INFO] 2026/06/04 23:24:17 Manual scan requested by user
+[INFO] 2026/06/04 23:24:17 Discovery service stopped
+[INFO] 2026/06/04 23:24:18 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:24:19 WebSocket client disconnected
+[INFO] 2026/06/04 23:24:19 WebSocket client connected
+[INFO] 2026/06/04 23:24:19 WebSocket client disconnected
+[INFO] 2026/06/04 23:24:20 WebSocket client connected
+[INFO] 2026/06/04 23:24:20 Manual scan requested by user
+[INFO] 2026/06/04 23:24:20 Discovery service stopped
+[INFO] 2026/06/04 23:24:20 WebSocket client disconnected
+[INFO] 2026/06/04 23:24:20 WebSocket client connected
+[INFO] 2026/06/04 23:24:20 Manual scan requested by user
+[INFO] 2026/06/04 23:24:20 Discovery service stopped
+[INFO] 2026/06/04 23:24:20 WebSocket client disconnected
+[INFO] 2026/06/04 23:24:20 WebSocket client connected
+[INFO] 2026/06/04 23:24:20 Manual scan requested by user
+[INFO] 2026/06/04 23:24:20 Discovery service stopped
+[INFO] 2026/06/04 23:24:20 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:24:20 WebSocket client disconnected
+[INFO] 2026/06/04 23:24:20 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:24:20 WebSocket client connected
+[INFO] 2026/06/04 23:24:20 WebSocket client disconnected
+[INFO] 2026/06/04 23:24:20 WebSocket client connected
+[INFO] 2026/06/04 23:24:20 Manual scan requested by user
+[INFO] 2026/06/04 23:24:20 Discovery service stopped
+[INFO] 2026/06/04 23:24:21 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:24:21 WebSocket client disconnected
+[INFO] 2026/06/04 23:24:21 WebSocket client connected
+[INFO] 2026/06/04 23:24:21 WebSocket client disconnected
+[INFO] 2026/06/04 23:24:21 WebSocket client connected
+[INFO] 2026/06/04 23:24:21 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:24:21 Manual scan requested by user
+[INFO] 2026/06/04 23:24:21 Discovery service stopped
+[INFO] 2026/06/04 23:24:21 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:24:26 WebSocket client disconnected
+[INFO] 2026/06/04 23:24:31 Received OS signal: interrupt. Shutting down...
+[INFO] 2026/06/04 23:24:31 Discovery service stopped
+[INFO] 2026/06/04 23:24:31 TCP Receiver stopped
+[INFO] 2026/06/04 23:24:33 Starting P2P File Transfer Application...
+[INFO] 2026/06/04 23:24:33 TCP Receiver started on :50005
+[INFO] 2026/06/04 23:24:33 WebSocket server starting on :8081
+[INFO] 2026/06/04 23:24:33 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:24:33 Fiber web server starting on http://localhost:8080
+[INFO] 2026/06/04 23:24:34 Opening dashboard in browser...
+[INFO] 2026/06/04 23:24:35 WebSocket client connected
+[INFO] 2026/06/04 23:24:35 Manual scan requested by user
+[INFO] 2026/06/04 23:24:35 Discovery service stopped
+[INFO] 2026/06/04 23:24:35 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:24:43 WebSocket client disconnected
+[INFO] 2026/06/04 23:24:43 WebSocket client connected
+[INFO] 2026/06/04 23:24:43 Manual scan requested by user
+[INFO] 2026/06/04 23:24:43 Discovery service stopped
+[INFO] 2026/06/04 23:24:44 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:24:44 WebSocket client disconnected
+[INFO] 2026/06/04 23:24:44 WebSocket client connected
+[INFO] 2026/06/04 23:24:44 Manual scan requested by user
+[INFO] 2026/06/04 23:24:44 Discovery service stopped
+[INFO] 2026/06/04 23:24:45 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:24:54 Manual scan requested by user
+[INFO] 2026/06/04 23:24:54 Discovery service stopped
+[INFO] 2026/06/04 23:24:55 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:25:04 Manual scan requested by user
+[INFO] 2026/06/04 23:25:04 Discovery service stopped
+[INFO] 2026/06/04 23:25:05 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:25:14 Manual scan requested by user
+[INFO] 2026/06/04 23:25:14 Discovery service stopped
+[INFO] 2026/06/04 23:25:15 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:25:24 Manual scan requested by user
+[INFO] 2026/06/04 23:25:24 Discovery service stopped
+[INFO] 2026/06/04 23:25:25 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:25:34 Manual scan requested by user
+[INFO] 2026/06/04 23:25:34 Discovery service stopped
+[INFO] 2026/06/04 23:25:35 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:25:44 Manual scan requested by user
+[INFO] 2026/06/04 23:25:44 Discovery service stopped
+[INFO] 2026/06/04 23:25:45 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:25:54 Manual scan requested by user
+[INFO] 2026/06/04 23:25:54 Discovery service stopped
+[INFO] 2026/06/04 23:25:55 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:26:04 Manual scan requested by user
+[INFO] 2026/06/04 23:26:04 Discovery service stopped
+[INFO] 2026/06/04 23:26:05 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:26:14 Manual scan requested by user
+[INFO] 2026/06/04 23:26:14 Discovery service stopped
+[INFO] 2026/06/04 23:26:15 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:26:24 Manual scan requested by user
+[INFO] 2026/06/04 23:26:24 Discovery service stopped
+[INFO] 2026/06/04 23:26:25 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:26:34 Manual scan requested by user
+[INFO] 2026/06/04 23:26:34 Discovery service stopped
+[INFO] 2026/06/04 23:26:35 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:26:44 Manual scan requested by user
+[INFO] 2026/06/04 23:26:44 Discovery service stopped
+[INFO] 2026/06/04 23:26:45 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:26:54 Manual scan requested by user
+[INFO] 2026/06/04 23:26:54 Discovery service stopped
+[INFO] 2026/06/04 23:26:55 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:27:04 Manual scan requested by user
+[INFO] 2026/06/04 23:27:04 Discovery service stopped
+[INFO] 2026/06/04 23:27:05 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:27:14 Manual scan requested by user
+[INFO] 2026/06/04 23:27:14 Discovery service stopped
+[INFO] 2026/06/04 23:27:15 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:27:24 Manual scan requested by user
+[INFO] 2026/06/04 23:27:24 Discovery service stopped
+[INFO] 2026/06/04 23:27:25 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:27:34 Manual scan requested by user
+[INFO] 2026/06/04 23:27:34 Discovery service stopped
+[INFO] 2026/06/04 23:27:35 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:27:44 Manual scan requested by user
+[INFO] 2026/06/04 23:27:44 Discovery service stopped
+[INFO] 2026/06/04 23:27:45 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:27:54 Manual scan requested by user
+[INFO] 2026/06/04 23:27:54 Discovery service stopped
+[INFO] 2026/06/04 23:27:55 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:28:04 Manual scan requested by user
+[INFO] 2026/06/04 23:28:04 Discovery service stopped
+[INFO] 2026/06/04 23:28:05 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:28:14 Manual scan requested by user
+[INFO] 2026/06/04 23:28:14 Discovery service stopped
+[INFO] 2026/06/04 23:28:15 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:28:24 Manual scan requested by user
+[INFO] 2026/06/04 23:28:24 Discovery service stopped
+[INFO] 2026/06/04 23:28:25 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:28:34 Manual scan requested by user
+[INFO] 2026/06/04 23:28:34 Discovery service stopped
+[INFO] 2026/06/04 23:28:35 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:28:44 Manual scan requested by user
+[INFO] 2026/06/04 23:28:44 Discovery service stopped
+[INFO] 2026/06/04 23:28:45 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:28:54 Manual scan requested by user
+[INFO] 2026/06/04 23:28:54 Discovery service stopped
+[INFO] 2026/06/04 23:28:55 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:29:04 Manual scan requested by user
+[INFO] 2026/06/04 23:29:04 Discovery service stopped
+[INFO] 2026/06/04 23:29:05 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:29:14 Manual scan requested by user
+[INFO] 2026/06/04 23:29:14 Discovery service stopped
+[INFO] 2026/06/04 23:29:15 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:29:24 Manual scan requested by user
+[INFO] 2026/06/04 23:29:24 Discovery service stopped
+[INFO] 2026/06/04 23:29:25 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:29:34 Received OS signal: interrupt. Shutting down...
+[INFO] 2026/06/04 23:29:34 Discovery service stopped
+[INFO] 2026/06/04 23:29:34 TCP Receiver stopped
+[INFO] 2026/06/04 23:29:40 Starting P2P File Transfer Application...
+[INFO] 2026/06/04 23:29:40 TCP Receiver started on :50005
+[INFO] 2026/06/04 23:29:40 WebSocket server starting on :8081
+[INFO] 2026/06/04 23:29:40 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:29:40 Fiber web server starting on http://localhost:8080
+[INFO] 2026/06/04 23:29:41 Opening dashboard in browser...
+[INFO] 2026/06/04 23:29:41 WebSocket client connected
+[INFO] 2026/06/04 23:29:41 Manual scan requested by user
+[INFO] 2026/06/04 23:29:41 Discovery service stopped
+[INFO] 2026/06/04 23:29:42 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:29:45 WebSocket client disconnected
+[INFO] 2026/06/04 23:29:45 WebSocket client connected
+[INFO] 2026/06/04 23:29:45 Manual scan requested by user
+[INFO] 2026/06/04 23:29:45 Discovery service stopped
+[INFO] 2026/06/04 23:29:46 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:29:46 WebSocket client disconnected
+[INFO] 2026/06/04 23:29:46 WebSocket client connected
+[INFO] 2026/06/04 23:29:46 Manual scan requested by user
+[INFO] 2026/06/04 23:29:46 Discovery service stopped
+[INFO] 2026/06/04 23:29:47 WebSocket client disconnected
+[INFO] 2026/06/04 23:29:47 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:29:47 WebSocket client connected
+[INFO] 2026/06/04 23:29:47 Manual scan requested by user
+[INFO] 2026/06/04 23:29:47 Discovery service stopped
+[INFO] 2026/06/04 23:29:47 WebSocket client disconnected
+[INFO] 2026/06/04 23:29:47 WebSocket client connected
+[INFO] 2026/06/04 23:29:47 Manual scan requested by user
+[INFO] 2026/06/04 23:29:47 Discovery service stopped
+[INFO] 2026/06/04 23:29:47 WebSocket client disconnected
+[INFO] 2026/06/04 23:29:47 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:29:48 WebSocket client connected
+[INFO] 2026/06/04 23:29:48 Manual scan requested by user
+[INFO] 2026/06/04 23:29:48 Discovery service stopped
+[INFO] 2026/06/04 23:29:48 WebSocket client disconnected
+[INFO] 2026/06/04 23:29:48 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:29:48 WebSocket client connected
+[INFO] 2026/06/04 23:29:48 Manual scan requested by user
+[INFO] 2026/06/04 23:29:48 Discovery service stopped
+[INFO] 2026/06/04 23:29:48 WebSocket client disconnected
+[INFO] 2026/06/04 23:29:48 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:29:48 WebSocket client connected
+[INFO] 2026/06/04 23:29:48 Manual scan requested by user
+[INFO] 2026/06/04 23:29:48 Discovery service stopped
+[INFO] 2026/06/04 23:29:48 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:29:48 WebSocket client disconnected
+[INFO] 2026/06/04 23:29:49 WebSocket client connected
+[INFO] 2026/06/04 23:29:49 Manual scan requested by user
+[INFO] 2026/06/04 23:29:49 Discovery service stopped
+[INFO] 2026/06/04 23:29:49 WebSocket client disconnected
+[INFO] 2026/06/04 23:29:49 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:29:49 WebSocket client connected
+[INFO] 2026/06/04 23:29:49 Manual scan requested by user
+[INFO] 2026/06/04 23:29:49 Discovery service stopped
+[INFO] 2026/06/04 23:29:49 WebSocket client disconnected
+[INFO] 2026/06/04 23:29:49 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:29:49 WebSocket client connected
+[INFO] 2026/06/04 23:29:49 Manual scan requested by user
+[INFO] 2026/06/04 23:29:49 Discovery service stopped
+[INFO] 2026/06/04 23:29:50 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:29:50 WebSocket client disconnected
+[INFO] 2026/06/04 23:29:50 WebSocket client connected
+[INFO] 2026/06/04 23:29:50 Manual scan requested by user
+[INFO] 2026/06/04 23:29:50 Discovery service stopped
+[INFO] 2026/06/04 23:29:50 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:29:50 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:30:00 Manual scan requested by user
+[INFO] 2026/06/04 23:30:00 Discovery service stopped
+[INFO] 2026/06/04 23:30:00 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:30:03 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 23:30:04 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 23:30:05 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 23:30:10 Manual scan requested by user
+[INFO] 2026/06/04 23:30:10 Discovery service stopped
+[INFO] 2026/06/04 23:30:10 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:30:20 Manual scan requested by user
+[INFO] 2026/06/04 23:30:20 Discovery service stopped
+[INFO] 2026/06/04 23:30:20 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:30:30 Manual scan requested by user
+[INFO] 2026/06/04 23:30:30 Discovery service stopped
+[INFO] 2026/06/04 23:30:30 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:30:40 Manual scan requested by user
+[INFO] 2026/06/04 23:30:40 Discovery service stopped
+[INFO] 2026/06/04 23:30:40 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:30:50 Manual scan requested by user
+[INFO] 2026/06/04 23:30:50 Discovery service stopped
+[INFO] 2026/06/04 23:30:50 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:31:06 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 23:31:10 Manual scan requested by user
+[INFO] 2026/06/04 23:31:10 Discovery service stopped
+[INFO] 2026/06/04 23:31:10 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:31:20 Manual scan requested by user
+[INFO] 2026/06/04 23:31:20 Discovery service stopped
+[INFO] 2026/06/04 23:31:20 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:31:30 Manual scan requested by user
+[INFO] 2026/06/04 23:31:30 Discovery service stopped
+[INFO] 2026/06/04 23:31:30 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:31:40 Manual scan requested by user
+[INFO] 2026/06/04 23:31:40 Discovery service stopped
+[INFO] 2026/06/04 23:31:40 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:31:50 Manual scan requested by user
+[INFO] 2026/06/04 23:31:50 Discovery service stopped
+[INFO] 2026/06/04 23:31:50 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:32:00 Manual scan requested by user
+[INFO] 2026/06/04 23:32:00 Discovery service stopped
+[INFO] 2026/06/04 23:32:00 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:32:10 Manual scan requested by user
+[INFO] 2026/06/04 23:32:10 Discovery service stopped
+[INFO] 2026/06/04 23:32:10 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:32:20 Manual scan requested by user
+[INFO] 2026/06/04 23:32:20 Discovery service stopped
+[INFO] 2026/06/04 23:32:20 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:32:23 Received OS signal: interrupt. Shutting down...
+[INFO] 2026/06/04 23:32:23 Discovery service stopped
+[INFO] 2026/06/04 23:32:23 TCP Receiver stopped
+[INFO] 2026/06/04 23:32:28 Starting P2P File Transfer Application...
+[INFO] 2026/06/04 23:32:28 TCP Receiver started on :50005
+[INFO] 2026/06/04 23:32:28 WebSocket server starting on :8081
+[INFO] 2026/06/04 23:32:28 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:32:28 WebSocket client connected
+[INFO] 2026/06/04 23:32:28 Fiber web server starting on http://localhost:8080
+[INFO] 2026/06/04 23:32:28 Manual scan requested by user
+[INFO] 2026/06/04 23:32:28 Discovery service stopped
+[INFO] 2026/06/04 23:32:29 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:32:29 Opening dashboard in browser...
+[INFO] 2026/06/04 23:32:30 WebSocket client connected
+[INFO] 2026/06/04 23:32:30 Manual scan requested by user
+[INFO] 2026/06/04 23:32:30 Discovery service stopped
+[INFO] 2026/06/04 23:32:31 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:32:39 Manual scan requested by user
+[INFO] 2026/06/04 23:32:39 Discovery service stopped
+[INFO] 2026/06/04 23:32:39 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:32:40 Manual scan requested by user
+[INFO] 2026/06/04 23:32:40 Discovery service stopped
+[INFO] 2026/06/04 23:32:41 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:32:49 Manual scan requested by user
+[INFO] 2026/06/04 23:32:49 Discovery service stopped
+[INFO] 2026/06/04 23:32:49 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:32:50 Manual scan requested by user
+[INFO] 2026/06/04 23:32:50 Discovery service stopped
+[INFO] 2026/06/04 23:32:51 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:32:59 Manual scan requested by user
+[INFO] 2026/06/04 23:32:59 Discovery service stopped
+[INFO] 2026/06/04 23:32:59 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:33:00 Manual scan requested by user
+[INFO] 2026/06/04 23:33:00 Discovery service stopped
+[INFO] 2026/06/04 23:33:01 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:33:09 Manual scan requested by user
+[INFO] 2026/06/04 23:33:09 Discovery service stopped
+[INFO] 2026/06/04 23:33:09 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:33:10 Manual scan requested by user
+[INFO] 2026/06/04 23:33:10 Discovery service stopped
+[INFO] 2026/06/04 23:33:11 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:33:19 Manual scan requested by user
+[INFO] 2026/06/04 23:33:19 Discovery service stopped
+[INFO] 2026/06/04 23:33:19 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:33:20 Manual scan requested by user
+[INFO] 2026/06/04 23:33:20 Discovery service stopped
+[INFO] 2026/06/04 23:33:21 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:33:29 Manual scan requested by user
+[INFO] 2026/06/04 23:33:29 Discovery service stopped
+[INFO] 2026/06/04 23:33:29 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:33:30 Manual scan requested by user
+[INFO] 2026/06/04 23:33:30 Discovery service stopped
+[INFO] 2026/06/04 23:33:31 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:33:39 Manual scan requested by user
+[INFO] 2026/06/04 23:33:39 Discovery service stopped
+[INFO] 2026/06/04 23:33:39 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:33:40 Manual scan requested by user
+[INFO] 2026/06/04 23:33:40 Discovery service stopped
+[INFO] 2026/06/04 23:33:41 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:33:50 Manual scan requested by user
+[INFO] 2026/06/04 23:33:50 Discovery service stopped
+[INFO] 2026/06/04 23:33:51 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:34:00 Manual scan requested by user
+[INFO] 2026/06/04 23:34:00 Discovery service stopped
+[INFO] 2026/06/04 23:34:01 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:34:10 Manual scan requested by user
+[INFO] 2026/06/04 23:34:10 Discovery service stopped
+[INFO] 2026/06/04 23:34:11 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:34:20 Manual scan requested by user
+[INFO] 2026/06/04 23:34:20 Discovery service stopped
+[INFO] 2026/06/04 23:34:21 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:34:30 Manual scan requested by user
+[INFO] 2026/06/04 23:34:30 Discovery service stopped
+[INFO] 2026/06/04 23:34:31 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:34:36 Manual scan requested by user
+[INFO] 2026/06/04 23:34:36 Discovery service stopped
+[INFO] 2026/06/04 23:34:36 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:34:40 Manual scan requested by user
+[INFO] 2026/06/04 23:34:40 Discovery service stopped
+[INFO] 2026/06/04 23:34:41 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:34:50 Manual scan requested by user
+[INFO] 2026/06/04 23:34:50 Discovery service stopped
+[INFO] 2026/06/04 23:34:51 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:35:00 Manual scan requested by user
+[INFO] 2026/06/04 23:35:00 Discovery service stopped
+[INFO] 2026/06/04 23:35:01 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:35:10 Manual scan requested by user
+[INFO] 2026/06/04 23:35:10 Discovery service stopped
+[INFO] 2026/06/04 23:35:11 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:35:20 Manual scan requested by user
+[INFO] 2026/06/04 23:35:20 Discovery service stopped
+[INFO] 2026/06/04 23:35:21 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:35:30 Manual scan requested by user
+[INFO] 2026/06/04 23:35:30 Discovery service stopped
+[INFO] 2026/06/04 23:35:31 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:35:36 Manual scan requested by user
+[INFO] 2026/06/04 23:35:36 Discovery service stopped
+[INFO] 2026/06/04 23:35:36 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:35:40 Manual scan requested by user
+[INFO] 2026/06/04 23:35:40 Discovery service stopped
+[INFO] 2026/06/04 23:35:41 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:35:50 Manual scan requested by user
+[INFO] 2026/06/04 23:35:50 Discovery service stopped
+[INFO] 2026/06/04 23:35:51 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:36:00 Manual scan requested by user
+[INFO] 2026/06/04 23:36:00 Discovery service stopped
+[INFO] 2026/06/04 23:36:01 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:36:10 Manual scan requested by user
+[INFO] 2026/06/04 23:36:10 Discovery service stopped
+[INFO] 2026/06/04 23:36:11 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:36:20 Manual scan requested by user
+[INFO] 2026/06/04 23:36:20 Discovery service stopped
+[INFO] 2026/06/04 23:36:21 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:36:30 Manual scan requested by user
+[INFO] 2026/06/04 23:36:30 Discovery service stopped
+[INFO] 2026/06/04 23:36:31 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:36:36 Manual scan requested by user
+[INFO] 2026/06/04 23:36:36 Discovery service stopped
+[INFO] 2026/06/04 23:36:36 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:36:40 Manual scan requested by user
+[INFO] 2026/06/04 23:36:40 Discovery service stopped
+[INFO] 2026/06/04 23:36:41 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:36:50 Manual scan requested by user
+[INFO] 2026/06/04 23:36:50 Discovery service stopped
+[INFO] 2026/06/04 23:36:51 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:37:00 Manual scan requested by user
+[INFO] 2026/06/04 23:37:00 Discovery service stopped
+[INFO] 2026/06/04 23:37:01 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:37:10 Manual scan requested by user
+[INFO] 2026/06/04 23:37:10 Discovery service stopped
+[INFO] 2026/06/04 23:37:11 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:37:20 Manual scan requested by user
+[INFO] 2026/06/04 23:37:20 Discovery service stopped
+[INFO] 2026/06/04 23:37:21 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:37:30 Manual scan requested by user
+[INFO] 2026/06/04 23:37:30 Discovery service stopped
+[INFO] 2026/06/04 23:37:31 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:37:36 Manual scan requested by user
+[INFO] 2026/06/04 23:37:36 Discovery service stopped
+[INFO] 2026/06/04 23:37:36 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:37:40 Manual scan requested by user
+[INFO] 2026/06/04 23:37:40 Discovery service stopped
+[INFO] 2026/06/04 23:37:41 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:37:50 Manual scan requested by user
+[INFO] 2026/06/04 23:37:50 Discovery service stopped
+[INFO] 2026/06/04 23:37:51 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:38:00 Manual scan requested by user
+[INFO] 2026/06/04 23:38:00 Discovery service stopped
+[INFO] 2026/06/04 23:38:01 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:38:10 Manual scan requested by user
+[INFO] 2026/06/04 23:38:10 Discovery service stopped
+[INFO] 2026/06/04 23:38:11 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:38:20 Manual scan requested by user
+[INFO] 2026/06/04 23:38:20 Discovery service stopped
+[INFO] 2026/06/04 23:38:21 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:38:30 Manual scan requested by user
+[INFO] 2026/06/04 23:38:30 Discovery service stopped
+[INFO] 2026/06/04 23:38:31 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:38:36 Manual scan requested by user
+[INFO] 2026/06/04 23:38:36 Discovery service stopped
+[INFO] 2026/06/04 23:38:36 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:38:40 Manual scan requested by user
+[INFO] 2026/06/04 23:38:40 Discovery service stopped
+[INFO] 2026/06/04 23:38:41 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:38:50 Manual scan requested by user
+[INFO] 2026/06/04 23:38:50 Discovery service stopped
+[INFO] 2026/06/04 23:38:51 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:39:00 Manual scan requested by user
+[INFO] 2026/06/04 23:39:00 Discovery service stopped
+[INFO] 2026/06/04 23:39:01 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:39:10 Manual scan requested by user
+[INFO] 2026/06/04 23:39:10 Discovery service stopped
+[INFO] 2026/06/04 23:39:11 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:39:20 Manual scan requested by user
+[INFO] 2026/06/04 23:39:20 Discovery service stopped
+[INFO] 2026/06/04 23:39:21 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:39:30 Manual scan requested by user
+[INFO] 2026/06/04 23:39:30 Discovery service stopped
+[INFO] 2026/06/04 23:39:31 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:39:36 Manual scan requested by user
+[INFO] 2026/06/04 23:39:36 Discovery service stopped
+[INFO] 2026/06/04 23:39:36 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:39:40 Manual scan requested by user
+[INFO] 2026/06/04 23:39:40 Discovery service stopped
+[INFO] 2026/06/04 23:39:41 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:39:50 Manual scan requested by user
+[INFO] 2026/06/04 23:39:50 Discovery service stopped
+[INFO] 2026/06/04 23:39:51 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:40:00 Manual scan requested by user
+[INFO] 2026/06/04 23:40:00 Discovery service stopped
+[INFO] 2026/06/04 23:40:01 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:40:10 Manual scan requested by user
+[INFO] 2026/06/04 23:40:10 Discovery service stopped
+[INFO] 2026/06/04 23:40:11 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:40:20 Manual scan requested by user
+[INFO] 2026/06/04 23:40:20 Discovery service stopped
+[INFO] 2026/06/04 23:40:21 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:40:30 Manual scan requested by user
+[INFO] 2026/06/04 23:40:30 Discovery service stopped
+[INFO] 2026/06/04 23:40:31 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:40:36 Manual scan requested by user
+[INFO] 2026/06/04 23:40:36 Discovery service stopped
+[INFO] 2026/06/04 23:40:36 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:40:40 Manual scan requested by user
+[INFO] 2026/06/04 23:40:40 Discovery service stopped
+[INFO] 2026/06/04 23:40:41 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:40:50 Manual scan requested by user
+[INFO] 2026/06/04 23:40:50 Discovery service stopped
+[INFO] 2026/06/04 23:40:51 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:41:00 Manual scan requested by user
+[INFO] 2026/06/04 23:41:00 Discovery service stopped
+[INFO] 2026/06/04 23:41:01 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:41:10 Manual scan requested by user
+[INFO] 2026/06/04 23:41:10 Discovery service stopped
+[INFO] 2026/06/04 23:41:11 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:41:20 Manual scan requested by user
+[INFO] 2026/06/04 23:41:20 Discovery service stopped
+[INFO] 2026/06/04 23:41:21 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:41:30 Manual scan requested by user
+[INFO] 2026/06/04 23:41:30 Discovery service stopped
+[INFO] 2026/06/04 23:41:31 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:41:36 Manual scan requested by user
+[INFO] 2026/06/04 23:41:36 Discovery service stopped
+[INFO] 2026/06/04 23:41:36 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:41:40 Manual scan requested by user
+[INFO] 2026/06/04 23:41:40 Discovery service stopped
+[INFO] 2026/06/04 23:41:41 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:41:50 Manual scan requested by user
+[INFO] 2026/06/04 23:41:50 Discovery service stopped
+[INFO] 2026/06/04 23:41:51 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:42:00 Manual scan requested by user
+[INFO] 2026/06/04 23:42:00 Discovery service stopped
+[INFO] 2026/06/04 23:42:01 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:42:10 Manual scan requested by user
+[INFO] 2026/06/04 23:42:10 Discovery service stopped
+[INFO] 2026/06/04 23:42:11 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:42:20 Manual scan requested by user
+[INFO] 2026/06/04 23:42:20 Discovery service stopped
+[INFO] 2026/06/04 23:42:21 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:42:30 Manual scan requested by user
+[INFO] 2026/06/04 23:42:30 Discovery service stopped
+[INFO] 2026/06/04 23:42:31 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:42:36 Manual scan requested by user
+[INFO] 2026/06/04 23:42:36 Discovery service stopped
+[INFO] 2026/06/04 23:42:36 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:42:40 Manual scan requested by user
+[INFO] 2026/06/04 23:42:40 Discovery service stopped
+[INFO] 2026/06/04 23:42:41 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:42:50 Manual scan requested by user
+[INFO] 2026/06/04 23:42:50 Discovery service stopped
+[INFO] 2026/06/04 23:42:51 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:43:00 Manual scan requested by user
+[INFO] 2026/06/04 23:43:00 Discovery service stopped
+[INFO] 2026/06/04 23:43:01 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:43:10 Manual scan requested by user
+[INFO] 2026/06/04 23:43:10 Discovery service stopped
+[INFO] 2026/06/04 23:43:11 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:43:20 Manual scan requested by user
+[INFO] 2026/06/04 23:43:20 Discovery service stopped
+[INFO] 2026/06/04 23:43:21 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:43:30 Manual scan requested by user
+[INFO] 2026/06/04 23:43:30 Discovery service stopped
+[INFO] 2026/06/04 23:43:31 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:43:36 Manual scan requested by user
+[INFO] 2026/06/04 23:43:36 Discovery service stopped
+[INFO] 2026/06/04 23:43:36 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:43:40 Manual scan requested by user
+[INFO] 2026/06/04 23:43:40 Discovery service stopped
+[INFO] 2026/06/04 23:43:41 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:43:50 Manual scan requested by user
+[INFO] 2026/06/04 23:43:50 Discovery service stopped
+[INFO] 2026/06/04 23:43:51 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:44:00 Manual scan requested by user
+[INFO] 2026/06/04 23:44:00 Discovery service stopped
+[INFO] 2026/06/04 23:44:01 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:44:10 Manual scan requested by user
+[INFO] 2026/06/04 23:44:10 Discovery service stopped
+[INFO] 2026/06/04 23:44:11 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:44:20 Manual scan requested by user
+[INFO] 2026/06/04 23:44:20 Discovery service stopped
+[INFO] 2026/06/04 23:44:21 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:44:30 Manual scan requested by user
+[INFO] 2026/06/04 23:44:30 Discovery service stopped
+[INFO] 2026/06/04 23:44:31 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:44:36 Manual scan requested by user
+[INFO] 2026/06/04 23:44:36 Discovery service stopped
+[INFO] 2026/06/04 23:44:36 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:44:40 Manual scan requested by user
+[INFO] 2026/06/04 23:44:40 Discovery service stopped
+[INFO] 2026/06/04 23:44:41 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:44:50 Manual scan requested by user
+[INFO] 2026/06/04 23:44:50 Discovery service stopped
+[INFO] 2026/06/04 23:44:51 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:45:00 Manual scan requested by user
+[INFO] 2026/06/04 23:45:00 Discovery service stopped
+[INFO] 2026/06/04 23:45:01 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:45:10 Manual scan requested by user
+[INFO] 2026/06/04 23:45:10 Discovery service stopped
+[INFO] 2026/06/04 23:45:11 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:45:20 Manual scan requested by user
+[INFO] 2026/06/04 23:45:20 Discovery service stopped
+[INFO] 2026/06/04 23:45:21 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:45:30 Manual scan requested by user
+[INFO] 2026/06/04 23:45:30 Discovery service stopped
+[INFO] 2026/06/04 23:45:31 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:45:36 Manual scan requested by user
+[INFO] 2026/06/04 23:45:36 Discovery service stopped
+[INFO] 2026/06/04 23:45:36 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:45:40 Manual scan requested by user
+[INFO] 2026/06/04 23:45:40 Discovery service stopped
+[INFO] 2026/06/04 23:45:41 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:45:50 Manual scan requested by user
+[INFO] 2026/06/04 23:45:50 Discovery service stopped
+[INFO] 2026/06/04 23:45:51 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:46:00 Manual scan requested by user
+[INFO] 2026/06/04 23:46:00 Discovery service stopped
+[INFO] 2026/06/04 23:46:01 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:46:10 Manual scan requested by user
+[INFO] 2026/06/04 23:46:10 Discovery service stopped
+[INFO] 2026/06/04 23:46:11 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:46:20 Manual scan requested by user
+[INFO] 2026/06/04 23:46:20 Discovery service stopped
+[INFO] 2026/06/04 23:46:21 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:46:21 Received OS signal: interrupt. Shutting down...
+[INFO] 2026/06/04 23:46:22 Discovery service stopped
+[INFO] 2026/06/04 23:46:22 TCP Receiver stopped
+[INFO] 2026/06/04 23:46:26 Starting P2P File Transfer Application...
+[INFO] 2026/06/04 23:46:26 TCP Receiver started on :50005
+[INFO] 2026/06/04 23:46:26 WebSocket server starting on :8081
+[INFO] 2026/06/04 23:46:26 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:46:26 WebSocket client connected
+[INFO] 2026/06/04 23:46:26 WebSocket client connected
+[INFO] 2026/06/04 23:46:26 Fiber web server starting on http://localhost:8080
+[INFO] 2026/06/04 23:46:26 Manual scan requested by user
+[INFO] 2026/06/04 23:46:26 Manual scan requested by user
+[INFO] 2026/06/04 23:46:26 Discovery service stopped
+[INFO] 2026/06/04 23:46:26 Discovery service stopped
+[INFO] 2026/06/04 23:46:26 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:46:26 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:46:27 Opening dashboard in browser...
+[INFO] 2026/06/04 23:46:28 WebSocket client connected
+[INFO] 2026/06/04 23:46:28 Manual scan requested by user
+[INFO] 2026/06/04 23:46:28 Discovery service stopped
+[INFO] 2026/06/04 23:46:28 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:46:36 Manual scan requested by user
+[INFO] 2026/06/04 23:46:36 Manual scan requested by user
+[INFO] 2026/06/04 23:46:36 Discovery service stopped
+[INFO] 2026/06/04 23:46:36 Discovery service stopped
+[INFO] 2026/06/04 23:46:36 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:46:36 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:46:38 Manual scan requested by user
+[INFO] 2026/06/04 23:46:38 Discovery service stopped
+[INFO] 2026/06/04 23:46:38 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:46:39 WebSocket client disconnected
+[INFO] 2026/06/04 23:46:39 WebSocket client disconnected
+[INFO] 2026/06/04 23:46:41 WebSocket client disconnected
+[INFO] 2026/06/04 23:46:41 WebSocket client connected
+[INFO] 2026/06/04 23:46:41 Manual scan requested by user
+[INFO] 2026/06/04 23:46:41 Discovery service stopped
+[INFO] 2026/06/04 23:46:42 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:46:42 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 23:46:43 WebSocket client disconnected
+[INFO] 2026/06/04 23:46:43 WebSocket client connected
+[INFO] 2026/06/04 23:46:43 Manual scan requested by user
+[INFO] 2026/06/04 23:46:43 Discovery service stopped
+[INFO] 2026/06/04 23:46:43 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:46:44 WebSocket client disconnected
+[INFO] 2026/06/04 23:46:44 WebSocket client connected
+[INFO] 2026/06/04 23:46:44 Manual scan requested by user
+[INFO] 2026/06/04 23:46:44 Discovery service stopped
+[INFO] 2026/06/04 23:46:44 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:46:44 WebSocket client disconnected
+[INFO] 2026/06/04 23:46:45 WebSocket client connected
+[INFO] 2026/06/04 23:46:45 Manual scan requested by user
+[INFO] 2026/06/04 23:46:45 Discovery service stopped
+[INFO] 2026/06/04 23:46:45 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:46:55 Manual scan requested by user
+[INFO] 2026/06/04 23:46:55 Discovery service stopped
+[INFO] 2026/06/04 23:46:55 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:47:05 Manual scan requested by user
+[INFO] 2026/06/04 23:47:05 Discovery service stopped
+[INFO] 2026/06/04 23:47:05 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:47:15 Manual scan requested by user
+[INFO] 2026/06/04 23:47:15 Discovery service stopped
+[INFO] 2026/06/04 23:47:15 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:47:25 Manual scan requested by user
+[INFO] 2026/06/04 23:47:25 Discovery service stopped
+[INFO] 2026/06/04 23:47:25 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:47:35 Manual scan requested by user
+[INFO] 2026/06/04 23:47:35 Discovery service stopped
+[INFO] 2026/06/04 23:47:35 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:47:45 Manual scan requested by user
+[INFO] 2026/06/04 23:47:45 Discovery service stopped
+[INFO] 2026/06/04 23:47:45 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:47:55 Manual scan requested by user
+[INFO] 2026/06/04 23:47:55 Discovery service stopped
+[INFO] 2026/06/04 23:47:55 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:48:05 Manual scan requested by user
+[INFO] 2026/06/04 23:48:05 Discovery service stopped
+[INFO] 2026/06/04 23:48:05 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:48:15 Manual scan requested by user
+[INFO] 2026/06/04 23:48:15 Discovery service stopped
+[INFO] 2026/06/04 23:48:15 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:48:25 Manual scan requested by user
+[INFO] 2026/06/04 23:48:25 Discovery service stopped
+[INFO] 2026/06/04 23:48:26 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:48:36 Manual scan requested by user
+[INFO] 2026/06/04 23:48:36 Discovery service stopped
+[INFO] 2026/06/04 23:48:36 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:48:46 Manual scan requested by user
+[INFO] 2026/06/04 23:48:46 Discovery service stopped
+[INFO] 2026/06/04 23:48:46 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:48:56 Manual scan requested by user
+[INFO] 2026/06/04 23:48:56 Discovery service stopped
+[INFO] 2026/06/04 23:48:56 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:49:06 Manual scan requested by user
+[INFO] 2026/06/04 23:49:06 Discovery service stopped
+[INFO] 2026/06/04 23:49:06 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:49:16 Manual scan requested by user
+[INFO] 2026/06/04 23:49:16 Discovery service stopped
+[INFO] 2026/06/04 23:49:16 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:49:26 Manual scan requested by user
+[INFO] 2026/06/04 23:49:26 Discovery service stopped
+[INFO] 2026/06/04 23:49:26 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:49:36 Manual scan requested by user
+[INFO] 2026/06/04 23:49:36 Discovery service stopped
+[INFO] 2026/06/04 23:49:36 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:49:51 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 23:50:06 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 23:50:21 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 23:50:33 Manual scan requested by user
+[INFO] 2026/06/04 23:50:33 Discovery service stopped
+[INFO] 2026/06/04 23:50:34 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:50:35 Manual scan requested by user
+[INFO] 2026/06/04 23:50:35 Discovery service stopped
+[INFO] 2026/06/04 23:50:35 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:50:36 WebSocket client disconnected
+[INFO] 2026/06/04 23:50:36 WebSocket client connected
+[INFO] 2026/06/04 23:50:36 Manual scan requested by user
+[INFO] 2026/06/04 23:50:36 Discovery service stopped
+[INFO] 2026/06/04 23:50:37 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:50:37 WebSocket client disconnected
+[INFO] 2026/06/04 23:50:37 WebSocket client connected
+[INFO] 2026/06/04 23:50:37 Manual scan requested by user
+[INFO] 2026/06/04 23:50:37 Discovery service stopped
+[INFO] 2026/06/04 23:50:38 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:50:47 Manual scan requested by user
+[INFO] 2026/06/04 23:50:47 Discovery service stopped
+[INFO] 2026/06/04 23:50:48 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:50:49 Received OS signal: interrupt. Shutting down...
+[INFO] 2026/06/04 23:50:49 Discovery service stopped
+[INFO] 2026/06/04 23:50:49 TCP Receiver stopped
+[INFO] 2026/06/04 23:50:55 Starting P2P File Transfer Application...
+[INFO] 2026/06/04 23:50:55 TCP Receiver started on :50005
+[INFO] 2026/06/04 23:50:55 WebSocket server starting on :8081
+[INFO] 2026/06/04 23:50:55 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:50:55 Fiber web server starting on http://localhost:8080
+[INFO] 2026/06/04 23:50:56 WebSocket client connected
+[INFO] 2026/06/04 23:50:56 Manual scan requested by user
+[INFO] 2026/06/04 23:50:56 Discovery service stopped
+[INFO] 2026/06/04 23:50:56 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:50:56 Opening dashboard in browser...
+[INFO] 2026/06/04 23:50:57 WebSocket client connected
+[INFO] 2026/06/04 23:50:57 Manual scan requested by user
+[INFO] 2026/06/04 23:50:57 Discovery service stopped
+[INFO] 2026/06/04 23:50:57 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:51:01 WebSocket client disconnected
+[INFO] 2026/06/04 23:51:01 WebSocket client connected
+[INFO] 2026/06/04 23:51:01 Manual scan requested by user
+[INFO] 2026/06/04 23:51:01 Discovery service stopped
+[INFO] 2026/06/04 23:51:02 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:51:06 Manual scan requested by user
+[INFO] 2026/06/04 23:51:06 Discovery service stopped
+[INFO] 2026/06/04 23:51:06 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:51:11 Manual scan requested by user
+[INFO] 2026/06/04 23:51:11 Discovery service stopped
+[INFO] 2026/06/04 23:51:12 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:51:16 Manual scan requested by user
+[INFO] 2026/06/04 23:51:16 Discovery service stopped
+[INFO] 2026/06/04 23:51:16 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:51:19 WebSocket client disconnected
+[INFO] 2026/06/04 23:51:21 Manual scan requested by user
+[INFO] 2026/06/04 23:51:21 Discovery service stopped
+[INFO] 2026/06/04 23:51:22 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:51:31 Manual scan requested by user
+[INFO] 2026/06/04 23:51:31 Discovery service stopped
+[INFO] 2026/06/04 23:51:32 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:51:41 Manual scan requested by user
+[INFO] 2026/06/04 23:51:41 Discovery service stopped
+[INFO] 2026/06/04 23:51:42 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:51:51 Manual scan requested by user
+[INFO] 2026/06/04 23:51:51 Discovery service stopped
+[INFO] 2026/06/04 23:51:52 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:51:57 WebSocket client disconnected
+[INFO] 2026/06/04 23:51:57 WebSocket client connected
+[INFO] 2026/06/04 23:51:57 Manual scan requested by user
+[INFO] 2026/06/04 23:51:57 Discovery service stopped
+[INFO] 2026/06/04 23:51:58 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:52:07 Manual scan requested by user
+[INFO] 2026/06/04 23:52:07 Discovery service stopped
+[INFO] 2026/06/04 23:52:08 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:52:17 Manual scan requested by user
+[INFO] 2026/06/04 23:52:17 Discovery service stopped
+[INFO] 2026/06/04 23:52:18 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:52:27 Manual scan requested by user
+[INFO] 2026/06/04 23:52:27 Discovery service stopped
+[INFO] 2026/06/04 23:52:28 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:52:37 Manual scan requested by user
+[INFO] 2026/06/04 23:52:37 Discovery service stopped
+[INFO] 2026/06/04 23:52:38 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:52:44 WebSocket client disconnected
+[INFO] 2026/06/04 23:52:44 WebSocket client connected
+[INFO] 2026/06/04 23:52:44 Manual scan requested by user
+[INFO] 2026/06/04 23:52:44 Discovery service stopped
+[INFO] 2026/06/04 23:52:44 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:52:54 Manual scan requested by user
+[INFO] 2026/06/04 23:52:54 Discovery service stopped
+[INFO] 2026/06/04 23:52:54 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:53:04 Manual scan requested by user
+[INFO] 2026/06/04 23:53:04 Discovery service stopped
+[INFO] 2026/06/04 23:53:04 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:53:14 Manual scan requested by user
+[INFO] 2026/06/04 23:53:14 Discovery service stopped
+[INFO] 2026/06/04 23:53:14 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:53:17 WebSocket client disconnected
+[INFO] 2026/06/04 23:53:17 WebSocket client connected
+[INFO] 2026/06/04 23:53:17 Manual scan requested by user
+[INFO] 2026/06/04 23:53:17 Discovery service stopped
+[INFO] 2026/06/04 23:53:18 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:53:18 WebSocket client disconnected
+[INFO] 2026/06/04 23:53:18 WebSocket client connected
+[INFO] 2026/06/04 23:53:18 Manual scan requested by user
+[INFO] 2026/06/04 23:53:18 Discovery service stopped
+[INFO] 2026/06/04 23:53:18 WebSocket client disconnected
+[INFO] 2026/06/04 23:53:18 WebSocket client connected
+[INFO] 2026/06/04 23:53:18 Manual scan requested by user
+[INFO] 2026/06/04 23:53:18 Discovery service stopped
+[INFO] 2026/06/04 23:53:18 WebSocket client disconnected
+[INFO] 2026/06/04 23:53:19 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:53:19 WebSocket client connected
+[INFO] 2026/06/04 23:53:19 Manual scan requested by user
+[INFO] 2026/06/04 23:53:19 Discovery service stopped
+[INFO] 2026/06/04 23:53:19 WebSocket client disconnected
+[INFO] 2026/06/04 23:53:19 WebSocket client connected
+[INFO] 2026/06/04 23:53:19 Manual scan requested by user
+[INFO] 2026/06/04 23:53:19 Discovery service stopped
+[INFO] 2026/06/04 23:53:19 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:53:19 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:53:19 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:53:28 Received OS signal: interrupt. Shutting down...
+[INFO] 2026/06/04 23:53:28 Discovery service stopped
+[INFO] 2026/06/04 23:53:28 TCP Receiver stopped
+[INFO] 2026/06/04 23:53:32 Starting P2P File Transfer Application...
+[INFO] 2026/06/04 23:53:32 TCP Receiver started on :50005
+[INFO] 2026/06/04 23:53:32 WebSocket server starting on :8081
+[INFO] 2026/06/04 23:53:32 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:53:32 WebSocket client connected
+[INFO] 2026/06/04 23:53:32 Fiber web server starting on http://localhost:8080
+[INFO] 2026/06/04 23:53:33 Manual scan requested by user
+[INFO] 2026/06/04 23:53:33 Discovery service stopped
+[INFO] 2026/06/04 23:53:33 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:53:33 Opening dashboard in browser...
+[INFO] 2026/06/04 23:53:34 WebSocket client connected
+[INFO] 2026/06/04 23:53:34 Manual scan requested by user
+[INFO] 2026/06/04 23:53:34 Discovery service stopped
+[INFO] 2026/06/04 23:53:35 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:53:39 WebSocket client disconnected
+[INFO] 2026/06/04 23:53:39 WebSocket client connected
+[INFO] 2026/06/04 23:53:39 Manual scan requested by user
+[INFO] 2026/06/04 23:53:39 Discovery service stopped
+[INFO] 2026/06/04 23:53:39 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:53:39 WebSocket client disconnected
+[INFO] 2026/06/04 23:53:40 WebSocket client connected
+[INFO] 2026/06/04 23:53:40 Manual scan requested by user
+[INFO] 2026/06/04 23:53:40 Discovery service stopped
+[INFO] 2026/06/04 23:53:40 WebSocket client disconnected
+[INFO] 2026/06/04 23:53:40 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:53:40 WebSocket client connected
+[INFO] 2026/06/04 23:53:40 Manual scan requested by user
+[INFO] 2026/06/04 23:53:40 Discovery service stopped
+[INFO] 2026/06/04 23:53:41 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:53:41 WebSocket client disconnected
+[INFO] 2026/06/04 23:53:41 WebSocket client connected
+[INFO] 2026/06/04 23:53:41 Manual scan requested by user
+[INFO] 2026/06/04 23:53:41 Discovery service stopped
+[INFO] 2026/06/04 23:53:42 WebSocket client disconnected
+[INFO] 2026/06/04 23:53:42 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:53:42 WebSocket client connected
+[INFO] 2026/06/04 23:53:42 Manual scan requested by user
+[INFO] 2026/06/04 23:53:42 Discovery service stopped
+[INFO] 2026/06/04 23:53:42 WebSocket client disconnected
+[INFO] 2026/06/04 23:53:42 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:53:43 WebSocket client connected
+[INFO] 2026/06/04 23:53:43 Manual scan requested by user
+[INFO] 2026/06/04 23:53:43 Manual scan requested by user
+[INFO] 2026/06/04 23:53:43 Discovery service stopped
+[INFO] 2026/06/04 23:53:43 Discovery service stopped
+[INFO] 2026/06/04 23:53:43 WebSocket client disconnected
+[INFO] 2026/06/04 23:53:43 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:53:43 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:53:43 WebSocket client connected
+[INFO] 2026/06/04 23:53:43 Manual scan requested by user
+[INFO] 2026/06/04 23:53:43 Discovery service stopped
+[INFO] 2026/06/04 23:53:44 WebSocket client disconnected
+[INFO] 2026/06/04 23:53:44 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:53:44 WebSocket client connected
+[INFO] 2026/06/04 23:53:44 Manual scan requested by user
+[INFO] 2026/06/04 23:53:44 Discovery service stopped
+[INFO] 2026/06/04 23:53:45 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:53:53 Manual scan requested by user
+[INFO] 2026/06/04 23:53:53 Discovery service stopped
+[INFO] 2026/06/04 23:53:53 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:53:54 Manual scan requested by user
+[INFO] 2026/06/04 23:53:54 Discovery service stopped
+[INFO] 2026/06/04 23:53:55 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:53:55 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 23:53:57 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 23:53:58 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 23:53:58 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 23:54:03 Manual scan requested by user
+[INFO] 2026/06/04 23:54:03 Discovery service stopped
+[INFO] 2026/06/04 23:54:03 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:54:04 Manual scan requested by user
+[INFO] 2026/06/04 23:54:04 Discovery service stopped
+[INFO] 2026/06/04 23:54:05 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:54:13 Manual scan requested by user
+[INFO] 2026/06/04 23:54:13 Discovery service stopped
+[INFO] 2026/06/04 23:54:13 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:54:14 Manual scan requested by user
+[INFO] 2026/06/04 23:54:14 Discovery service stopped
+[INFO] 2026/06/04 23:54:15 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:54:23 Manual scan requested by user
+[INFO] 2026/06/04 23:54:23 Discovery service stopped
+[INFO] 2026/06/04 23:54:23 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:54:24 Manual scan requested by user
+[INFO] 2026/06/04 23:54:24 Discovery service stopped
+[INFO] 2026/06/04 23:54:25 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:54:33 Manual scan requested by user
+[INFO] 2026/06/04 23:54:33 Discovery service stopped
+[INFO] 2026/06/04 23:54:33 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:54:34 Manual scan requested by user
+[INFO] 2026/06/04 23:54:34 Discovery service stopped
+[INFO] 2026/06/04 23:54:35 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:54:42 WebSocket client disconnected
+[INFO] 2026/06/04 23:54:42 WebSocket client connected
+[INFO] 2026/06/04 23:54:42 Manual scan requested by user
+[INFO] 2026/06/04 23:54:42 Discovery service stopped
+[INFO] 2026/06/04 23:54:43 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:54:43 Manual scan requested by user
+[INFO] 2026/06/04 23:54:43 Discovery service stopped
+[INFO] 2026/06/04 23:54:43 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:54:43 WebSocket client disconnected
+[INFO] 2026/06/04 23:54:44 WebSocket client connected
+[INFO] 2026/06/04 23:54:44 Manual scan requested by user
+[INFO] 2026/06/04 23:54:44 Discovery service stopped
+[INFO] 2026/06/04 23:54:44 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:54:46 Manual scan requested by user
+[INFO] 2026/06/04 23:54:47 Discovery service stopped
+[INFO] 2026/06/04 23:54:47 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:54:50 WebSocket client disconnected
+[INFO] 2026/06/04 23:54:52 WebSocket client disconnected
+[INFO] 2026/06/04 23:54:58 Performing periodic background mDNS scan...
+[INFO] 2026/06/04 23:54:59 Received OS signal: interrupt. Shutting down...
+[INFO] 2026/06/04 23:54:59 Discovery service stopped
+[INFO] 2026/06/04 23:54:59 TCP Receiver stopped
+[INFO] 2026/06/04 23:55:01 Starting P2P File Transfer Application...
+[INFO] 2026/06/04 23:55:01 TCP Receiver started on :50005
+[INFO] 2026/06/04 23:55:01 WebSocket server starting on :8081
+[INFO] 2026/06/04 23:55:01 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:55:01 Fiber web server starting on http://localhost:8080
+[INFO] 2026/06/04 23:55:02 Opening dashboard in browser...
+[INFO] 2026/06/04 23:55:03 WebSocket client connected
+[INFO] 2026/06/04 23:55:03 Manual scan requested by user
+[INFO] 2026/06/04 23:55:03 Discovery service stopped
+[INFO] 2026/06/04 23:55:03 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:55:08 WebSocket client disconnected
+[INFO] 2026/06/04 23:55:08 WebSocket client connected
+[INFO] 2026/06/04 23:55:08 Manual scan requested by user
+[INFO] 2026/06/04 23:55:08 Discovery service stopped
+[INFO] 2026/06/04 23:55:08 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:55:09 WebSocket client disconnected
+[INFO] 2026/06/04 23:55:10 WebSocket client connected
+[INFO] 2026/06/04 23:55:10 Manual scan requested by user
+[INFO] 2026/06/04 23:55:10 Discovery service stopped
+[INFO] 2026/06/04 23:55:10 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:55:10 WebSocket client disconnected
+[INFO] 2026/06/04 23:55:11 WebSocket client connected
+[INFO] 2026/06/04 23:55:11 Manual scan requested by user
+[INFO] 2026/06/04 23:55:11 Discovery service stopped
+[INFO] 2026/06/04 23:55:11 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:55:11 WebSocket client disconnected
+[INFO] 2026/06/04 23:55:12 WebSocket client connected
+[INFO] 2026/06/04 23:55:12 Manual scan requested by user
+[INFO] 2026/06/04 23:55:12 Discovery service stopped
+[INFO] 2026/06/04 23:55:12 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:55:12 WebSocket client disconnected
+[INFO] 2026/06/04 23:55:13 WebSocket client connected
+[INFO] 2026/06/04 23:55:13 Manual scan requested by user
+[INFO] 2026/06/04 23:55:13 Discovery service stopped
+[INFO] 2026/06/04 23:55:13 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:55:14 WebSocket client disconnected
+[INFO] 2026/06/04 23:55:14 WebSocket client connected
+[INFO] 2026/06/04 23:55:14 Manual scan requested by user
+[INFO] 2026/06/04 23:55:14 Discovery service stopped
+[INFO] 2026/06/04 23:55:14 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:55:24 Manual scan requested by user
+[INFO] 2026/06/04 23:55:24 Discovery service stopped
+[INFO] 2026/06/04 23:55:24 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:55:34 Manual scan requested by user
+[INFO] 2026/06/04 23:55:34 Discovery service stopped
+[INFO] 2026/06/04 23:55:34 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:55:44 Manual scan requested by user
+[INFO] 2026/06/04 23:55:44 Discovery service stopped
+[INFO] 2026/06/04 23:55:44 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:55:54 Manual scan requested by user
+[INFO] 2026/06/04 23:55:54 Discovery service stopped
+[INFO] 2026/06/04 23:55:54 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:55:58 WebSocket client disconnected
+[INFO] 2026/06/04 23:55:59 WebSocket client connected
+[INFO] 2026/06/04 23:55:59 Manual scan requested by user
+[INFO] 2026/06/04 23:55:59 Discovery service stopped
+[INFO] 2026/06/04 23:55:59 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:56:02 WebSocket client disconnected
+[INFO] 2026/06/04 23:56:02 WebSocket client connected
+[INFO] 2026/06/04 23:56:02 Manual scan requested by user
+[INFO] 2026/06/04 23:56:02 Discovery service stopped
+[INFO] 2026/06/04 23:56:03 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:56:03 WebSocket client disconnected
+[INFO] 2026/06/04 23:56:03 WebSocket client connected
+[INFO] 2026/06/04 23:56:03 Manual scan requested by user
+[INFO] 2026/06/04 23:56:03 Discovery service stopped
+[INFO] 2026/06/04 23:56:03 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:56:13 Manual scan requested by user
+[INFO] 2026/06/04 23:56:13 Discovery service stopped
+[INFO] 2026/06/04 23:56:13 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:56:23 Manual scan requested by user
+[INFO] 2026/06/04 23:56:23 Discovery service stopped
+[INFO] 2026/06/04 23:56:23 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:56:33 Manual scan requested by user
+[INFO] 2026/06/04 23:56:33 Discovery service stopped
+[INFO] 2026/06/04 23:56:33 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:56:43 Manual scan requested by user
+[INFO] 2026/06/04 23:56:43 Discovery service stopped
+[INFO] 2026/06/04 23:56:43 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:56:53 Manual scan requested by user
+[INFO] 2026/06/04 23:56:53 Discovery service stopped
+[INFO] 2026/06/04 23:56:53 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:57:03 Manual scan requested by user
+[INFO] 2026/06/04 23:57:03 Discovery service stopped
+[INFO] 2026/06/04 23:57:03 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:57:13 Manual scan requested by user
+[INFO] 2026/06/04 23:57:13 Discovery service stopped
+[INFO] 2026/06/04 23:57:13 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:57:23 Manual scan requested by user
+[INFO] 2026/06/04 23:57:23 Discovery service stopped
+[INFO] 2026/06/04 23:57:23 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:57:33 Manual scan requested by user
+[INFO] 2026/06/04 23:57:33 Discovery service stopped
+[INFO] 2026/06/04 23:57:33 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:57:43 Manual scan requested by user
+[INFO] 2026/06/04 23:57:43 Discovery service stopped
+[INFO] 2026/06/04 23:57:43 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:57:53 Manual scan requested by user
+[INFO] 2026/06/04 23:57:53 Discovery service stopped
+[INFO] 2026/06/04 23:57:53 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:58:03 Manual scan requested by user
+[INFO] 2026/06/04 23:58:03 Discovery service stopped
+[INFO] 2026/06/04 23:58:03 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:58:13 Manual scan requested by user
+[INFO] 2026/06/04 23:58:13 Discovery service stopped
+[INFO] 2026/06/04 23:58:13 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:58:23 Manual scan requested by user
+[INFO] 2026/06/04 23:58:23 Discovery service stopped
+[INFO] 2026/06/04 23:58:23 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:58:33 Manual scan requested by user
+[INFO] 2026/06/04 23:58:33 Discovery service stopped
+[INFO] 2026/06/04 23:58:33 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:58:43 Manual scan requested by user
+[INFO] 2026/06/04 23:58:43 Discovery service stopped
+[INFO] 2026/06/04 23:58:43 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:58:53 Manual scan requested by user
+[INFO] 2026/06/04 23:58:53 Discovery service stopped
+[INFO] 2026/06/04 23:58:53 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:59:03 Manual scan requested by user
+[INFO] 2026/06/04 23:59:03 Discovery service stopped
+[INFO] 2026/06/04 23:59:03 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:59:13 Manual scan requested by user
+[INFO] 2026/06/04 23:59:13 Discovery service stopped
+[INFO] 2026/06/04 23:59:13 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:59:23 Manual scan requested by user
+[INFO] 2026/06/04 23:59:23 Discovery service stopped
+[INFO] 2026/06/04 23:59:23 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:59:33 Manual scan requested by user
+[INFO] 2026/06/04 23:59:33 Discovery service stopped
+[INFO] 2026/06/04 23:59:33 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:59:43 Manual scan requested by user
+[INFO] 2026/06/04 23:59:43 Discovery service stopped
+[INFO] 2026/06/04 23:59:43 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/04 23:59:53 Manual scan requested by user
+[INFO] 2026/06/04 23:59:53 Discovery service stopped
+[INFO] 2026/06/04 23:59:53 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/05 00:00:03 Manual scan requested by user
+[INFO] 2026/06/05 00:00:03 Discovery service stopped
+[INFO] 2026/06/05 00:00:03 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/05 00:00:13 Manual scan requested by user
+[INFO] 2026/06/05 00:00:13 Discovery service stopped
+[INFO] 2026/06/05 00:00:13 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/05 00:00:23 Manual scan requested by user
+[INFO] 2026/06/05 00:00:23 Discovery service stopped
+[INFO] 2026/06/05 00:00:23 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/05 00:00:33 Manual scan requested by user
+[INFO] 2026/06/05 00:00:33 Discovery service stopped
+[INFO] 2026/06/05 00:00:33 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.11
+[INFO] 2026/06/05 00:00:41 Received OS signal: interrupt. Shutting down...
+[INFO] 2026/06/05 00:00:41 Discovery service stopped
+[INFO] 2026/06/05 00:00:41 TCP Receiver stopped
