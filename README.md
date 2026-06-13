@@ -1,4 +1,4 @@
-# Peer-to-Peer LAN File Transfer Application (Go & Windows)
+# Peer-to-Peer LAN File Transfer Application (Go & Windows Only)
 
 A production-ready, decentralized, LAN-based file transfer application built in Go for Windows 10 and 11. It allows multiple computers on the same Local Area Network (LAN) to automatically discover each other and transfer files/directories directly without using any central server, relay server, cloud storage, or active internet connection.
 
