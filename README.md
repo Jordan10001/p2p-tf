@@ -44,7 +44,8 @@ It provides a modern user experience comparable to AirDrop or LocalSend, running
 │   │   ├── receiver.go             # TCP receiver listener & write-append partial handler
 │   │   └── sender.go               # TCP sender client & file seek streaming handler
 │   ├── /utils
-│   │   ├── dialogs.go              # Native File Explorer picker script wrapper
+│   │   ├── dialogs_windows.go      # Native File Explorer picker script wrapper for Windows
+│   │   ├── dialogs_stub.go         # No-op stub for cross-platform compliance
 │   │   └── utils.go                # Traversal prevention, local IP lookup, auto-rename collisions
 │   ├── /web
 │   │   └── web.go                  # Fiber Web Server REST endpoints
@@ -55,11 +56,13 @@ It provides a modern user experience comparable to AirDrop or LocalSend, running
 │   │   ├── /css
 │   │   │   └── style.css           # Custom scrollbars, glass styles, pulse animations
 │   │   ├── /icons
-│   │   │   └── .gitkeep            # Icon folder placeholder
+│   │   │   ├── favicon.ico         # App favicon
+│   │   │   └── logo.png            # App logo image
 │   │   └── /js
-│   │       └── app.js              # Web Client logic (WebSocket, HTTP REST, DragDrop, UI states)
+│   │       ├── app.js              # Web Client logic (WebSocket, HTTP REST, DragDrop, UI states)
+│   │       └── tailwind.min.js     # Tailwind CSS framework script
 │   └── /templates
-│       └── index.html              # Dashboard HTML 
+│       └── index.html              # Dashboard HTML template
 ├── embed.go                        # Web templates and static assets embed directives
 ├── go.mod
 ├── go.sum
@@ -70,10 +73,10 @@ It provides a modern user experience comparable to AirDrop or LocalSend, running
 
 ## Build Instructions
 
-No external compilation tools are required. Build natively in pure Go:
+No external compilation tools (like GCC for CGO) are required. Build natively in pure Go:
 
 1. Clone or copy the repository.
-2. Open PowerShell in the `/p2p-tf` directory.
+2. Open PowerShell in the `/p2p-transfer` directory.
 3. Run the standard compile command:
    ```powershell
    go build -o p2p-transfer-cli.exe cmd/p2p-tf/main.go
@@ -91,7 +94,7 @@ No external compilation tools are required. Build natively in pure Go:
 
 ## Running the Application
 
-1. Double-click the compiled `p2p-transfer.exe`or`p2p-transfer-cli.exe`.
+1. Double-click the compiled `p2p-tf.exe`.
 2. The application will:
    - Run in the background on your Windows machine.
    - Load/create settings and history JSON files in `C:\Users\<username>\.p2p-transfer\`.
