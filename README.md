@@ -11,10 +11,9 @@ It provides a modern user experience comparable to AirDrop or LocalSend, running
 - **Directory Structure Preservation**: Recursively scans shared folders on the sender's side and recreates identical folder structures on the receiver's side.
 - **Resume Support**: Tracks incomplete files using `.part` buffers and automatically resumes file streaming from the last completed byte block if connections are interrupted.
 - **Robust Security**: Prevents directory traversal attacks via path sanitization, employs UUIDs for transfer validation, and verifies sender addresses against the discovered LAN peer list.
-- **Windows System Tray Integration**: Minimizes cleanly to the Windows system tray with a context menu (Open Dashboard, Settings, Restart Discovery, Exit) and sends native balloon toast notifications.
-- **Glassmorphic Web Dashboard**: Runs a local Fiber web server (`http://localhost:8080`) that launches automatically on startup. Features a dark/light responsive layout styled with Tailwind CSS.
+- **Windows System Tray Integration**: Minimizes cleanly to the Windows system tray with a context menu (Open Dashboard, Settings, Restart Discovery, Exit).
+- **Glassmorphic Web Dashboard**: Runs a local Fiber web server (`http://localhost:8080`) that launches automatically on startup. 
 - **Native File Dialogs**: Leverages lightweight PowerShell scripts under the hood to trigger native Windows File and Directory pickers from the web dashboard.
-- **Drag & Drop Support**: Allows dropping files directly onto the browser dashboard, copying them into a local buffer queue for sharing.
 
 ---
 
@@ -60,7 +59,7 @@ It provides a modern user experience comparable to AirDrop or LocalSend, running
 │   │   └── /js
 │   │       └── app.js              # Web Client logic (WebSocket, HTTP REST, DragDrop, UI states)
 │   └── /templates
-│       └── index.html              # SPA Dashboard HTML template
+│       └── index.html              # Dashboard HTML 
 ├── embed.go                        # Web templates and static assets embed directives
 ├── go.mod
 ├── go.sum
@@ -71,10 +70,10 @@ It provides a modern user experience comparable to AirDrop or LocalSend, running
 
 ## Build Instructions
 
-No external compilation tools (like GCC for CGO) are required. Build natively in pure Go:
+No external compilation tools are required. Build natively in pure Go:
 
 1. Clone or copy the repository.
-2. Open PowerShell in the `/p2p-transfer` directory.
+2. Open PowerShell in the `/p2p-tf` directory.
 3. Run the standard compile command:
    ```powershell
    go build -o p2p-transfer-cli.exe cmd/p2p-tf/main.go
@@ -92,7 +91,7 @@ No external compilation tools (like GCC for CGO) are required. Build natively in
 
 ## Running the Application
 
-1. Double-click the compiled `p2p-transfer.exe`.
+1. Double-click the compiled `p2p-transfer.exe`or`p2p-transfer-cli.exe`.
 2. The application will:
    - Run in the background on your Windows machine.
    - Load/create settings and history JSON files in `C:\Users\<username>\.p2p-transfer\`.
