@@ -11,10 +11,9 @@ It provides a modern user experience comparable to AirDrop or LocalSend, running
 - **Directory Structure Preservation**: Recursively scans shared folders on the sender's side and recreates identical folder structures on the receiver's side.
 - **Resume Support**: Tracks incomplete files using `.part` buffers and automatically resumes file streaming from the last completed byte block if connections are interrupted.
 - **Robust Security**: Prevents directory traversal attacks via path sanitization, employs UUIDs for transfer validation, and verifies sender addresses against the discovered LAN peer list.
-- **Windows System Tray Integration**: Minimizes cleanly to the Windows system tray with a context menu (Open Dashboard, Settings, Restart Discovery, Exit) and sends native balloon toast notifications.
-- **Glassmorphic Web Dashboard**: Runs a local Fiber web server (`http://localhost:8080`) that launches automatically on startup. Features a dark/light responsive layout styled with Tailwind CSS.
+- **Windows System Tray Integration**: Minimizes cleanly to the Windows system tray with a context menu (Open Dashboard, Settings, Restart Discovery, Exit).
+- **Glassmorphic Web Dashboard**: Runs a local Fiber web server (`http://localhost:8080`) that launches automatically on startup. 
 - **Native File Dialogs**: Leverages lightweight PowerShell scripts under the hood to trigger native Windows File and Directory pickers from the web dashboard.
-- **Drag & Drop Support**: Allows dropping files directly onto the browser dashboard, copying them into a local buffer queue for sharing.
 
 ---
 
@@ -45,7 +44,8 @@ It provides a modern user experience comparable to AirDrop or LocalSend, running
 │   │   ├── receiver.go             # TCP receiver listener & write-append partial handler
 │   │   └── sender.go               # TCP sender client & file seek streaming handler
 │   ├── /utils
-│   │   ├── dialogs.go              # Native File Explorer picker script wrapper
+│   │   ├── dialogs_windows.go      # Native File Explorer picker script wrapper for Windows
+│   │   ├── dialogs_stub.go         # No-op stub for cross-platform compliance
 │   │   └── utils.go                # Traversal prevention, local IP lookup, auto-rename collisions
 │   ├── /web
 │   │   └── web.go                  # Fiber Web Server REST endpoints
@@ -56,11 +56,13 @@ It provides a modern user experience comparable to AirDrop or LocalSend, running
 │   │   ├── /css
 │   │   │   └── style.css           # Custom scrollbars, glass styles, pulse animations
 │   │   ├── /icons
-│   │   │   └── .gitkeep            # Icon folder placeholder
+│   │   │   ├── favicon.ico         # App favicon
+│   │   │   └── logo.png            # App logo image
 │   │   └── /js
-│   │       └── app.js              # Web Client logic (WebSocket, HTTP REST, DragDrop, UI states)
+│   │       ├── app.js              # Web Client logic (WebSocket, HTTP REST, DragDrop, UI states)
+│   │       └── tailwind.min.js     # Tailwind CSS framework script
 │   └── /templates
-│       └── index.html              # SPA Dashboard HTML template
+│       └── index.html              # Dashboard HTML template
 ├── embed.go                        # Web templates and static assets embed directives
 ├── go.mod
 ├── go.sum
@@ -92,7 +94,7 @@ No external compilation tools (like GCC for CGO) are required. Build natively in
 
 ## Running the Application
 
-1. Double-click the compiled `p2p-transfer.exe`.
+1. Double-click the compiled `p2p-tf.exe`.
 2. The application will:
    - Run in the background on your Windows machine.
    - Load/create settings and history JSON files in `C:\Users\<username>\.p2p-transfer\`.
