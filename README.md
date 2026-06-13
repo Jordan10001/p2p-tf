@@ -85,8 +85,7 @@ No external compilation tools (like GCC for CGO) are required. Build natively in
    ```
 5. Run the standard compile command:
    ```powershell
-   cd cmd/p2p-tf
-   go run main.go
+   go run cmd/p2p-tf/main.go
    ```
 
 ---
@@ -107,6 +106,19 @@ No external compilation tools (like GCC for CGO) are required. Build natively in
    - Check the destinations you want to send to on the online devices grid.
    - Click **[Start P2P Transfer]** in the floating action bar.
    - The receiver will be prompted with a modal detailing the sender name, files list, and total size to click **[Accept]** or **[Reject]** (unless *Auto Accept* is checked in their settings panel).
+
+---
+
+## Screenshots
+<img width="1917" height="1077" alt="Dashboard" src="https://github.com/user-attachments/assets/51706738-3f0e-4a47-9826-aa33c582b4f2" />
+<img width="1917" height="1077" alt="sentfile" src="https://github.com/user-attachments/assets/b9a40954-c691-48c3-a4c1-c4c3e6e09628" />
+<img width="1917" height="1077" alt="Preparing" src="https://github.com/user-attachments/assets/523f4f92-39b8-4a6b-bc06-e5280aed1668" />
+<img width="1917" height="1077" alt="validation" src="https://github.com/user-attachments/assets/9f0580c5-4a51-4e92-9e9d-69839a1596dd" />
+<img width="1917" height="1077" alt="reciving" src="https://github.com/user-attachments/assets/0c5168b6-4cf1-4761-ae19-1c4a0386370d" />
+<img width="1917" height="1077" alt="transfers" src="https://github.com/user-attachments/assets/21ffd918-94e6-41cc-8d42-0f8bd7ef9ae5" />
+<img width="1917" height="1077" alt="History" src="https://github.com/user-attachments/assets/a598554b-1a56-4702-8676-ef4abc5cb250" />
+<img width="1917" height="1077" alt="Settings" src="https://github.com/user-attachments/assets/3079ae51-d126-4921-9554-40aca3dbd936" />
+<img width="1917" height="1077" alt="Systray" src="https://github.com/user-attachments/assets/78141332-6869-4d3f-a1e6-dcd32fe0fa67" />
 
 ---
 
