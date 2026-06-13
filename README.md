@@ -23,7 +23,7 @@ It provides a modern user experience comparable to AirDrop or LocalSend, running
 ```text
 /p2p-transfer
 ├── /cmd
-│   └── /p2p-transfer
+│   └── /p2p-tf
 │       └── main.go                 # App Entry point (orchestration & signals)
 ├── /internal
 │   ├── /config
@@ -47,8 +47,10 @@ It provides a modern user experience comparable to AirDrop or LocalSend, running
 │   ├── /utils
 │   │   ├── dialogs.go              # Native File Explorer picker script wrapper
 │   │   └── utils.go                # Traversal prevention, local IP lookup, auto-rename collisions
-│   └── /web
-│       └── web.go                  # Fiber Web Server REST endpoints
+│   ├── /web
+│   │   └── web.go                  # Fiber Web Server REST endpoints
+│   └── /websocket
+│       └── websocket.go            # WebSocket hub and client connections for live UI updates
 ├── /web
 │   ├── /static
 │   │   ├── /css
@@ -59,6 +61,7 @@ It provides a modern user experience comparable to AirDrop or LocalSend, running
 │   │       └── app.js              # Web Client logic (WebSocket, HTTP REST, DragDrop, UI states)
 │   └── /templates
 │       └── index.html              # SPA Dashboard HTML template
+├── embed.go                        # Web templates and static assets embed directives
 ├── go.mod
 ├── go.sum
 └── README.md
