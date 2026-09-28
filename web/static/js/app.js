@@ -853,27 +853,7 @@ function initClickHandlers() {
         });
     }
 
-    // Browse Folder on Settings
-    const browseDirBtn = document.getElementById('settings-browse-btn');
-    if (browseDirBtn) {
-        browseDirBtn.addEventListener('click', () => {
-            fetch('/api/select-folder', { method: 'POST' })
-            .then(res => res.json())
-            .then(data => {
-                if (data.files && data.files.length > 0) {
-                    const selectedFolder = data.files[0].path;
-                    const downloadDirInput = document.getElementById('settings-download-dir');
-                    if (downloadDirInput) {
-                        downloadDirInput.value = selectedFolder;
-                    }
-                }
-            })
-            .catch(err => {
-                console.error('Failed to select folder:', err);
-                showToast('error', 'Failed to browse folder');
-            });
-        });
-    }
+
 
     // Open Download Folder
     const openDownloadsBtn = document.getElementById('open-downloads-btn');
