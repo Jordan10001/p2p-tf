@@ -65,17 +65,17 @@ function updateSelectedItemsUI(files) {
         totalBytes += file.size;
         
         const row = document.createElement('div');
-        row.className = 'flex items-center justify-between p-3.5 rounded-2xl bg-slate-950/60 border border-white/5';
+        row.className = 'flex items-center justify-between p-3.5 rounded-2xl bg-zinc-950/80 border border-white/10';
         row.innerHTML = `
             <div class="flex items-center space-x-3 truncate">
-                <div class="p-2 text-indigo-400 bg-indigo-500/10 rounded-xl flex-shrink-0">
+                <div class="p-2 text-zinc-300 bg-white/10 rounded-xl flex-shrink-0">
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"/>
                     </svg>
                 </div>
                 <div class="truncate text-left">
                     <p class="text-sm font-bold text-white truncate" title="${file.path}">${file.name}</p>
-                    <p class="text-[11px] text-slate-500 mt-0.5">${formatBytes(file.size)}</p>
+                    <p class="text-[11px] text-zinc-400 mt-0.5">${formatBytes(file.size)}</p>
                 </div>
             </div>
         `;
@@ -111,11 +111,11 @@ function initSidebar() {
     menuItems.forEach(item => {
         const targetPanel = item.getAttribute('data-target');
         if (targetPanel === activeTab) {
-            item.classList.add('active', 'bg-indigo-600', 'text-white', 'shadow-lg', 'shadow-indigo-600/15');
-            item.classList.remove('text-slate-400', 'hover:text-slate-200', 'hover:bg-white/5');
+            item.classList.add('active', 'bg-white', 'text-zinc-950', 'shadow-md');
+            item.classList.remove('text-zinc-400', 'hover:text-white', 'hover:bg-white/5');
         } else {
-            item.classList.remove('active', 'bg-indigo-600', 'text-white', 'shadow-lg', 'shadow-indigo-600/15');
-            item.classList.add('text-slate-400', 'hover:text-slate-200', 'hover:bg-white/5');
+            item.classList.remove('active', 'bg-white', 'text-zinc-950', 'shadow-md');
+            item.classList.add('text-zinc-400', 'hover:text-white', 'hover:bg-white/5');
         }
     });
     panels.forEach(panel => {
@@ -132,12 +132,12 @@ function initSidebar() {
             localStorage.setItem('activeTab', targetPanel);
             
             menuItems.forEach(i => {
-                i.classList.remove('active', 'bg-indigo-600', 'text-white', 'shadow-lg', 'shadow-indigo-600/15');
-                i.classList.add('text-slate-400', 'hover:text-slate-200', 'hover:bg-white/5');
+                i.classList.remove('active', 'bg-white', 'text-zinc-950', 'shadow-md');
+                i.classList.add('text-zinc-400', 'hover:text-white', 'hover:bg-white/5');
             });
             
-            item.classList.add('active', 'bg-indigo-600', 'text-white', 'shadow-lg', 'shadow-indigo-600/15');
-            item.classList.remove('text-slate-400', 'hover:text-slate-200', 'hover:bg-white/5');
+            item.classList.add('active', 'bg-white', 'text-zinc-950', 'shadow-md');
+            item.classList.remove('text-zinc-400', 'hover:text-white', 'hover:bg-white/5');
 
             panels.forEach(panel => {
                 if (panel.id === targetPanel) {
@@ -156,8 +156,6 @@ async function loadSettings() {
         const res = await fetch('/api/settings');
         const settings = await res.json();
         currentSettings = settings;
-
-
 
         // Fill form fields in Settings Tab
         const devNameInput = document.getElementById('settings-device-name');
@@ -311,29 +309,29 @@ function renderDevices(devices) {
         devicesContainer.innerHTML = '';
         onlineDevices.forEach(device => {
             const card = document.createElement('div');
-            card.className = `glass-panel rounded-3xl p-6 flex flex-col justify-between hover-scale relative transition-all border border-white/5`;
+            card.className = `glass-panel rounded-3xl p-6 flex flex-col justify-between hover-scale relative transition-all border border-white/10`;
 
             card.innerHTML = `
                 <div class="flex items-start justify-between">
                     <div class="flex items-center space-x-3.5">
-                        <div class="p-3 bg-gradient-to-tr from-indigo-500/10 to-purple-500/10 text-indigo-400 rounded-2xl border border-indigo-500/10">
+                        <div class="p-3 bg-white/10 text-white rounded-2xl border border-white/15">
                             <svg class="w-5.5 h-5.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
                             </svg>
                         </div>
                         <div>
                             <h3 class="font-bold text-base text-white tracking-tight">${device.name}</h3>
-                            <p class="text-xs text-slate-400 mt-0.5">${device.hostname}</p>
-                            <p class="text-[10px] font-mono text-slate-500 mt-2 bg-slate-950/60 px-2.5 py-1 rounded-xl border border-white/5 inline-block">${device.ip}:${device.port}</p>
+                            <p class="text-xs text-zinc-400 mt-0.5">${device.hostname}</p>
+                            <p class="text-[10px] font-mono text-zinc-400 mt-2 bg-zinc-950/80 px-2.5 py-1 rounded-xl border border-white/10 inline-block">${device.ip}:${device.port}</p>
                         </div>
                     </div>
                 </div>
                 <div class="mt-6 flex items-center justify-between">
                     <div class="flex items-center space-x-2">
-                        <span class="w-2 h-2 bg-green-500 rounded-full inline-block animate-ping"></span>
-                        <span class="text-[10px] font-bold text-green-400 capitalize tracking-wider">${device.status}</span>
+                        <span class="w-2 h-2 bg-white rounded-full inline-block animate-ping"></span>
+                        <span class="text-[10px] font-bold text-zinc-300 capitalize tracking-wider">${device.status}</span>
                     </div>
-                    <button class="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl transition-all shadow-md shadow-indigo-600/10 hover:scale-105 active:scale-95 quick-send-btn" data-id="${device.id}">
+                    <button class="px-4 py-2 bg-white hover:bg-zinc-200 text-zinc-950 text-xs font-bold rounded-xl transition-all shadow-md hover:scale-105 active:scale-95 quick-send-btn" data-id="${device.id}">
                         Send Files
                     </button>
                 </div>
@@ -364,12 +362,12 @@ function updateDiscoveryStatus(active, count) {
 
     if (active) {
         if (dot) {
-            dot.className = 'w-2.5 h-2.5 bg-green-500 rounded-full inline-block pulse-dot mr-2';
+            dot.className = 'w-2.5 h-2.5 bg-white rounded-full inline-block pulse-dot mr-2';
         }
         text.textContent = count > 0 ? `Discovery Active (${count} device${count > 1 ? 's' : ''} found)` : 'Discovery Active (No devices found)';
     } else {
         if (dot) {
-            dot.className = 'w-2.5 h-2.5 bg-yellow-500 rounded-full inline-block pulse-dot-yellow mr-2';
+            dot.className = 'w-2.5 h-2.5 bg-zinc-600 rounded-full inline-block mr-2';
         }
         text.textContent = 'Disconnected';
     }
@@ -410,10 +408,10 @@ function renderQueue(queue) {
 
     queue.forEach((item, index) => {
         const row = document.createElement('div');
-        row.className = 'flex items-center justify-between p-3.5 rounded-2xl bg-slate-950/60 border border-white/5 hover:bg-slate-950/80 transition-all';
+        row.className = 'flex items-center justify-between p-3.5 rounded-2xl bg-zinc-950/80 border border-white/10 hover:bg-zinc-900 transition-all';
         row.innerHTML = `
             <div class="flex items-center space-x-3 truncate">
-                <div class="p-2 text-indigo-400 bg-indigo-500/10 rounded-xl flex-shrink-0">
+                <div class="p-2 text-zinc-300 bg-white/10 rounded-xl flex-shrink-0">
                     ${item.type === 'folder' ? 
                         `<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"/></svg>` :
                         `<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>`
@@ -421,10 +419,10 @@ function renderQueue(queue) {
                 </div>
                 <div class="truncate text-left">
                     <p class="text-sm font-bold text-white truncate" title="${item.path}">${item.name}</p>
-                    <p class="text-[11px] text-slate-500 mt-0.5">${formatBytes(item.size)} • <span class="capitalize">${item.type}</span></p>
+                    <p class="text-[11px] text-zinc-400 mt-0.5">${formatBytes(item.size)} • <span class="capitalize">${item.type}</span></p>
                 </div>
             </div>
-            <button class="p-1 text-gray-500 hover:text-red-500 transition-colors remove-queue-btn" data-index="${index}">
+            <button class="p-1 text-zinc-500 hover:text-white transition-colors remove-queue-btn" data-index="${index}">
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/>
                 </svg>
@@ -453,8 +451,6 @@ function renderQueue(queue) {
     });
 }
 
-
-
 // Handle real-time transfer updates from WebSocket
 function handleTransferUpdate(transfer) {
     activeTransfers[transfer.id] = transfer;
@@ -476,7 +472,7 @@ function renderTransfers() {
     const transfersArray = Object.values(activeTransfers);
 
     if (transfersArray.length === 0) {
-        if (activeContainer) activeContainer.innerHTML = '<p class="text-sm text-slate-555 italic">No active transfers running</p>';
+        if (activeContainer) activeContainer.innerHTML = '<p class="text-sm text-zinc-500 italic">No active transfers running</p>';
         if (transfersPanelList) transfersPanelList.innerHTML = '';
         if (noTransfersMsg) noTransfersMsg.classList.remove('hidden');
         return;
@@ -488,12 +484,7 @@ function renderTransfers() {
         const isSend = t.direction === 'send';
         const progressPercent = Math.round(t.progress || 0);
         
-        let directionIcon = '';
-        if (isSend) {
-            directionIcon = `<span class="p-2 text-indigo-400 bg-indigo-500/10 rounded-lg"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"/></svg></span>`;
-        } else {
-            directionIcon = `<span class="p-2 text-green-400 bg-green-500/10 rounded-lg"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/></svg></span>`;
-        }
+        let directionIcon = `<span class="p-2 text-zinc-200 bg-white/10 rounded-lg"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">${isSend ? '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"/>' : '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>'}</svg></span>`;
 
         let fileNameLabel = '';
         if (t.files.length === 1) {
@@ -503,15 +494,15 @@ function renderTransfers() {
         }
 
         let statusBadge = '';
-        let badgeColor = 'bg-slate-800/40 text-slate-400 border border-white/5';
+        let badgeColor = 'bg-zinc-800 text-zinc-400 border border-white/10';
         switch (t.status) {
-            case 'sending': badgeColor = 'bg-indigo-500/10 text-indigo-400 border border-indigo-500/20'; break;
-            case 'receiving': badgeColor = 'bg-green-500/10 text-green-400 border border-green-500/20'; break;
-            case 'completed': badgeColor = 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/20'; break;
-            case 'failed': badgeColor = 'bg-rose-500/10 text-rose-400 border border-rose-500/20'; break;
-            case 'cancelled': badgeColor = 'bg-amber-500/10 text-amber-400 border border-amber-500/20'; break;
-            case 'waiting': badgeColor = 'bg-yellow-500/10 text-yellow-400 border border-yellow-500/20 animate-pulse'; break;
-            case 'preparing': badgeColor = 'bg-purple-500/10 text-purple-400 border border-purple-500/20 animate-pulse'; break;
+            case 'completed': badgeColor = 'bg-white/15 text-white border border-white/30'; break;
+            case 'sending':
+            case 'receiving': badgeColor = 'bg-white/10 text-zinc-200 border border-white/20'; break;
+            case 'failed': badgeColor = 'bg-zinc-800 text-zinc-300 border border-zinc-600'; break;
+            case 'cancelled': badgeColor = 'bg-zinc-900 text-zinc-500 border border-zinc-800'; break;
+            case 'waiting':
+            case 'preparing': badgeColor = 'bg-zinc-800/50 text-zinc-300 border border-white/15 animate-pulse'; break;
         }
         statusBadge = `<span class="px-2.5 py-1 text-[10px] font-bold rounded-full ${badgeColor} capitalize tracking-wider">${t.status}</span>`;
 
@@ -519,7 +510,7 @@ function renderTransfers() {
         if (t.status === 'sending' || t.status === 'receiving') {
             speedText = `${formatSpeed(t.speed)} • ETA: ${formatETA(t.eta)}`;
         } else if (t.error) {
-            speedText = `<span class="text-rose-500 text-xs">${t.error}</span>`;
+            speedText = `<span class="text-zinc-300 text-xs font-semibold">${t.error}</span>`;
         } else {
             speedText = t.status;
         }
@@ -527,31 +518,31 @@ function renderTransfers() {
         const canCancel = t.status === 'sending' || t.status === 'receiving' || t.status === 'waiting' || t.status === 'preparing';
 
         return `
-            <div class="p-5 rounded-3xl border border-white/5 glass-panel">
+            <div class="p-5 rounded-3xl border border-white/10 glass-panel">
                 <div class="flex items-center justify-between mb-4">
                     <div class="flex items-center space-x-3.5">
                         ${directionIcon}
                         <div>
                             <h4 class="text-sm font-bold text-white tracking-tight truncate max-w-xs md:max-w-md">${fileNameLabel}</h4>
-                            <p class="text-xs text-slate-500">${isSend ? 'To' : 'From'} ${t.peerName} (${t.peerIp}) • ${formatBytes(t.totalSize)}</p>
+                            <p class="text-xs text-zinc-400">${isSend ? 'To' : 'From'} ${t.peerName} (${t.peerIp}) • ${formatBytes(t.totalSize)}</p>
                         </div>
                     </div>
                     <div class="flex items-center space-x-2">
                         ${statusBadge}
                         ${canCancel ? `
-                            <button class="px-3.5 py-1.5 bg-rose-600/10 border border-rose-500/20 hover:bg-rose-600 hover:text-white text-rose-450 text-xs font-bold rounded-xl transition-all cancel-transfer-btn active:scale-95" data-id="${t.id}">
+                            <button class="px-3.5 py-1.5 bg-zinc-900 border border-zinc-700 hover:border-white hover:bg-zinc-800 text-zinc-300 hover:text-white text-xs font-bold rounded-xl transition-all cancel-transfer-btn active:scale-95" data-id="${t.id}">
                                 Cancel
                             </button>
                         ` : ''}
                     </div>
                 </div>
                 <div class="space-y-2">
-                    <div class="flex items-center justify-between text-xs text-slate-400">
+                    <div class="flex items-center justify-between text-xs text-zinc-400">
                         <span>${speedText}</span>
-                        <span class="font-bold">${progressPercent}%</span>
+                        <span class="font-bold text-white">${progressPercent}%</span>
                     </div>
-                    <div class="w-full bg-slate-950 rounded-full h-2 border border-white/5">
-                        <div class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 h-2 rounded-full transition-all duration-300" style="width: ${progressPercent}%"></div>
+                    <div class="w-full bg-zinc-950 rounded-full h-2 border border-white/10">
+                        <div class="bg-white h-2 rounded-full transition-all duration-300 shadow-[0_0_8px_rgba(255,255,255,0.4)]" style="width: ${progressPercent}%"></div>
                     </div>
                 </div>
             </div>
@@ -607,14 +598,14 @@ function showIncomingRequestModal(request) {
         filesList.innerHTML = '';
         request.files.slice(0, 5).forEach(file => {
             const li = document.createElement('li');
-            li.className = 'text-xs text-slate-400 py-1 border-b border-white/5 flex justify-between';
-            li.innerHTML = `<span>${file.name}</span> <span class="text-slate-500">${formatBytes(file.size)}</span>`;
+            li.className = 'text-xs text-zinc-300 py-1 border-b border-white/10 flex justify-between';
+            li.innerHTML = `<span>${file.name}</span> <span class="text-zinc-500">${formatBytes(file.size)}</span>`;
             filesList.appendChild(li);
         });
 
         if (request.files.length > 5) {
             const li = document.createElement('li');
-            li.className = 'text-xs text-slate-500 italic py-1';
+            li.className = 'text-xs text-zinc-500 italic py-1';
             li.textContent = `...and ${request.files.length - 5} more files`;
             filesList.appendChild(li);
         }
@@ -655,24 +646,23 @@ async function loadHistory() {
 
 function renderHistory(historyList) {
     const historyBody = document.getElementById('history-table-body');
-    const dashboardHistory = document.getElementById('recent-history-list');
 
     if (historyBody) {
         if (historyList.length === 0) {
             historyBody.innerHTML = `
                 <tr>
-                    <td colspan="7" class="text-center py-8 text-sm text-slate-500 italic bg-slate-900/10">No transfer history recorded</td>
+                    <td colspan="7" class="text-center py-8 text-sm text-zinc-500 italic bg-zinc-950/20">No transfer history recorded</td>
                 </tr>
             `;
         } else {
             historyBody.innerHTML = '';
             historyList.forEach(entry => {
                 const tr = document.createElement('tr');
-                tr.className = 'border-b border-white/5 hover:bg-white/5 transition-all';
+                tr.className = 'border-b border-white/10 hover:bg-white/5 transition-all';
                 
-                let statusColor = 'text-emerald-400 bg-emerald-500/10 border border-emerald-500/20';
-                if (entry.status === 'failed') statusColor = 'text-rose-400 bg-rose-500/10 border border-rose-500/20';
-                if (entry.status === 'cancelled') statusColor = 'text-amber-400 bg-amber-500/10 border border-amber-500/20';
+                let statusColor = 'text-white bg-white/10 border border-white/20';
+                if (entry.status === 'failed') statusColor = 'text-zinc-400 bg-zinc-800 border border-zinc-700';
+                if (entry.status === 'cancelled') statusColor = 'text-zinc-500 bg-zinc-900 border border-zinc-800';
 
                 // Determine if received successfully
                 const isReceiver = entry.receiver === currentSettings.deviceName;
@@ -680,16 +670,16 @@ function renderHistory(historyList) {
 
                 tr.innerHTML = `
                     <td class="py-4 px-6 text-sm font-medium text-white truncate max-w-xs" title="${entry.fileName}">${entry.fileName}</td>
-                    <td class="py-4 px-6 text-sm text-slate-400">${entry.sender}</td>
-                    <td class="py-4 px-6 text-sm text-slate-400">${entry.receiver}</td>
-                    <td class="py-4 px-6 text-sm text-slate-400 font-mono">${formatBytes(entry.size)}</td>
-                    <td class="py-4 px-6 text-sm text-slate-400">${new Date(entry.timestamp).toLocaleString()}</td>
+                    <td class="py-4 px-6 text-sm text-zinc-400">${entry.sender}</td>
+                    <td class="py-4 px-6 text-sm text-zinc-400">${entry.receiver}</td>
+                    <td class="py-4 px-6 text-sm text-zinc-400 font-mono">${formatBytes(entry.size)}</td>
+                    <td class="py-4 px-6 text-sm text-zinc-400">${new Date(entry.timestamp).toLocaleString()}</td>
                     <td class="py-4 px-6">
                         <span class="px-2.5 py-1 text-[10px] font-bold rounded-full ${statusColor} capitalize tracking-wider">${entry.status}</span>
                     </td>
                     <td class="py-4 px-6 text-right">
                         ${canOpen ? `
-                            <button class="px-3.5 py-1.5 bg-indigo-600/10 border border-indigo-500/20 hover:bg-indigo-600 hover:text-white text-indigo-400 text-xs font-bold rounded-xl transition-all open-folder-inline-btn active:scale-95">
+                            <button class="px-3.5 py-1.5 bg-white/10 border border-white/20 hover:bg-white hover:text-zinc-950 text-white text-xs font-bold rounded-xl transition-all open-folder-inline-btn active:scale-95">
                                 Open Folder
                             </button>
                         ` : '-'}
@@ -945,29 +935,24 @@ function sendQueueToDevices(deviceIds) {
     });
 }
 
-// Toast Notifications System
+// Toast Notifications System (Monochrome)
 function showToast(type, message) {
     const container = document.getElementById('toast-container');
     if (!container) return;
 
     const toast = document.createElement('div');
-    toast.className = 'transform translate-x-24 opacity-0 transition-all duration-300 ease-out flex items-center space-x-3 p-4 rounded-xl shadow-2xl glass-panel max-w-sm pointer-events-auto border';
+    toast.className = 'transform translate-x-24 opacity-0 transition-all duration-300 ease-out flex items-center space-x-3 p-4 rounded-xl shadow-2xl glass-panel max-w-sm pointer-events-auto border border-white/20 bg-zinc-900/95 text-white';
     
-    let colorClasses = 'border-indigo-500 bg-indigo-500/10 text-indigo-400';
-    let icon = `<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>`;
+    let icon = `<svg class="w-5 h-5 text-zinc-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>`;
 
     if (type === 'success') {
-        colorClasses = 'border-emerald-500 bg-emerald-500/10 text-emerald-400';
-        icon = `<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>`;
+        icon = `<svg class="w-5 h-5 text-white flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>`;
     } else if (type === 'error') {
-        colorClasses = 'border-rose-500 bg-rose-500/10 text-rose-400';
-        icon = `<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>`;
+        icon = `<svg class="w-5 h-5 text-zinc-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>`;
     } else if (type === 'warning') {
-        colorClasses = 'border-amber-500 bg-amber-500/10 text-amber-400';
-        icon = `<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>`;
+        icon = `<svg class="w-5 h-5 text-zinc-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>`;
     }
 
-    toast.className += ` ${colorClasses}`;
     toast.innerHTML = `
         <div class="flex-shrink-0">${icon}</div>
         <div class="text-sm font-medium text-white">${message}</div>
@@ -1025,7 +1010,7 @@ async function loadDirectory(path) {
 
     if (!listContainer) return;
 
-    listContainer.innerHTML = '<div class="p-4 text-xs text-slate-500 italic text-center">Loading files...</div>';
+    listContainer.innerHTML = '<div class="p-4 text-xs text-zinc-500 italic text-center">Loading files...</div>';
     if (currentPathSpan) currentPathSpan.textContent = path;
 
     try {
@@ -1034,7 +1019,7 @@ async function loadDirectory(path) {
         const data = await res.json();
 
         if (data.error) {
-            listContainer.innerHTML = `<div class="p-4 text-xs text-rose-500 text-center">Error: ${data.error}</div>`;
+            listContainer.innerHTML = `<div class="p-4 text-xs text-zinc-300 font-semibold text-center">Error: ${data.error}</div>`;
             return;
         }
 
@@ -1048,7 +1033,7 @@ async function loadDirectory(path) {
 
         renderExplorerItems(data.items);
     } catch (err) {
-        listContainer.innerHTML = `<div class="p-4 text-xs text-rose-500 text-center font-bold">Failed to load directory.</div>`;
+        listContainer.innerHTML = `<div class="p-4 text-xs text-zinc-300 text-center font-bold">Failed to load directory.</div>`;
     }
 }
 
@@ -1059,7 +1044,7 @@ function renderExplorerItems(items) {
     listContainer.innerHTML = '';
 
     if (!items || items.length === 0) {
-        listContainer.innerHTML = '<div class="p-4 text-xs text-slate-500 italic text-center">Empty directory</div>';
+        listContainer.innerHTML = '<div class="p-4 text-xs text-zinc-500 italic text-center">Empty directory</div>';
         return;
     }
 
@@ -1078,20 +1063,20 @@ function renderExplorerItems(items) {
         
         let icon = '';
         if (item.isDir) {
-            icon = `<svg class="w-4 h-4 text-amber-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"/></svg>`;
+            icon = `<svg class="w-4 h-4 text-zinc-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"/></svg>`;
         } else {
-            icon = `<svg class="w-4 h-4 text-slate-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>`;
+            icon = `<svg class="w-4 h-4 text-zinc-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>`;
         }
 
         row.innerHTML = `
             <div class="flex items-center space-x-3 overflow-hidden flex-grow cursor-pointer explorer-item-click-target pr-2">
                 ${icon}
                 <div class="truncate text-left flex-grow">
-                    <p class="text-xs font-semibold text-slate-200 group-hover:text-indigo-300 truncate" title="${item.name}">${item.name}</p>
-                    <p class="text-[10px] text-slate-500 font-mono">${sizeLabel}</p>
+                    <p class="text-xs font-semibold text-zinc-200 group-hover:text-white truncate" title="${item.name}">${item.name}</p>
+                    <p class="text-[10px] text-zinc-400 font-mono">${sizeLabel}</p>
                 </div>
             </div>
-            <button class="p-1.5 text-slate-400 hover:text-indigo-400 border border-white/5 hover:border-indigo-500/30 bg-slate-900/50 hover:bg-indigo-500/10 rounded-lg transition-all explorer-send-btn flex-shrink-0" data-path="${item.path}" title="Send Immediately">
+            <button class="p-1.5 text-zinc-400 hover:text-white border border-white/10 hover:border-white/30 bg-zinc-900/50 hover:bg-white/10 rounded-lg transition-all explorer-send-btn flex-shrink-0" data-path="${item.path}" title="Send Immediately">
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/>
                 </svg>

@@ -1,0 +1,350 @@
+[INFO] 2026/06/13 17:56:13 Starting P2P File Transfer Application...
+[INFO] 2026/06/13 17:56:13 TCP Receiver started on :50005
+[INFO] 2026/06/13 17:56:13 WebSocket server starting on :8081
+[INFO] 2026/06/13 17:56:13 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:56:13 Fiber web server starting on http://localhost:8080
+[INFO] 2026/06/13 17:56:13 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 17:56:13 WebSocket client connected
+[INFO] 2026/06/13 17:56:13 WebSocket client connected
+[INFO] 2026/06/13 17:56:13 Manual scan requested by user
+[INFO] 2026/06/13 17:56:13 Discovery service stopped
+[INFO] 2026/06/13 17:56:13 Manual scan requested by user
+[INFO] 2026/06/13 17:56:13 Discovery service stopped
+[INFO] 2026/06/13 17:56:14 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:56:14 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:56:14 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 17:56:14 Opening dashboard in browser...
+[INFO] 2026/06/13 17:56:15 WebSocket client connected
+[INFO] 2026/06/13 17:56:15 Manual scan requested by user
+[INFO] 2026/06/13 17:56:15 Discovery service stopped
+[INFO] 2026/06/13 17:56:15 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:56:15 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 17:56:23 Manual scan requested by user
+[INFO] 2026/06/13 17:56:23 Manual scan requested by user
+[INFO] 2026/06/13 17:56:23 Discovery service stopped
+[INFO] 2026/06/13 17:56:23 Discovery service stopped
+[INFO] 2026/06/13 17:56:24 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:56:24 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:56:24 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 17:56:25 Manual scan requested by user
+[INFO] 2026/06/13 17:56:25 Discovery service stopped
+[INFO] 2026/06/13 17:56:25 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:56:25 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 17:56:29 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 17:56:33 Manual scan requested by user
+[INFO] 2026/06/13 17:56:33 Manual scan requested by user
+[INFO] 2026/06/13 17:56:33 Discovery service stopped
+[INFO] 2026/06/13 17:56:33 Discovery service stopped
+[INFO] 2026/06/13 17:56:34 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:56:34 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:56:34 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 17:56:35 Manual scan requested by user
+[INFO] 2026/06/13 17:56:35 Discovery service stopped
+[INFO] 2026/06/13 17:56:35 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:56:35 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 17:56:43 Manual scan requested by user
+[INFO] 2026/06/13 17:56:43 Manual scan requested by user
+[INFO] 2026/06/13 17:56:43 Discovery service stopped
+[INFO] 2026/06/13 17:56:43 Discovery service stopped
+[INFO] 2026/06/13 17:56:44 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:56:44 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:56:44 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 17:56:45 Manual scan requested by user
+[INFO] 2026/06/13 17:56:45 Discovery service stopped
+[INFO] 2026/06/13 17:56:45 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:56:45 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 17:56:49 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 17:56:53 Manual scan requested by user
+[INFO] 2026/06/13 17:56:53 Manual scan requested by user
+[INFO] 2026/06/13 17:56:53 Discovery service stopped
+[INFO] 2026/06/13 17:56:53 Discovery service stopped
+[INFO] 2026/06/13 17:56:54 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:56:54 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:56:54 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 17:56:55 Manual scan requested by user
+[INFO] 2026/06/13 17:56:55 Discovery service stopped
+[INFO] 2026/06/13 17:56:55 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:56:55 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 17:57:03 Manual scan requested by user
+[INFO] 2026/06/13 17:57:03 Manual scan requested by user
+[INFO] 2026/06/13 17:57:03 Discovery service stopped
+[INFO] 2026/06/13 17:57:03 Discovery service stopped
+[INFO] 2026/06/13 17:57:04 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:57:04 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:57:04 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 17:57:05 Manual scan requested by user
+[INFO] 2026/06/13 17:57:05 Discovery service stopped
+[INFO] 2026/06/13 17:57:05 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:57:05 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 17:57:13 Manual scan requested by user
+[INFO] 2026/06/13 17:57:13 Manual scan requested by user
+[INFO] 2026/06/13 17:57:13 Discovery service stopped
+[INFO] 2026/06/13 17:57:13 Discovery service stopped
+[INFO] 2026/06/13 17:57:14 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:57:14 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:57:14 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 17:57:15 Manual scan requested by user
+[INFO] 2026/06/13 17:57:15 Discovery service stopped
+[INFO] 2026/06/13 17:57:15 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:57:15 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 17:57:19 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 17:57:23 Manual scan requested by user
+[INFO] 2026/06/13 17:57:23 Manual scan requested by user
+[INFO] 2026/06/13 17:57:23 Discovery service stopped
+[INFO] 2026/06/13 17:57:23 Discovery service stopped
+[INFO] 2026/06/13 17:57:24 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:57:24 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:57:24 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 17:57:25 Manual scan requested by user
+[INFO] 2026/06/13 17:57:25 Discovery service stopped
+[INFO] 2026/06/13 17:57:25 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:57:25 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 17:57:35 Manual scan requested by user
+[INFO] 2026/06/13 17:57:35 Discovery service stopped
+[INFO] 2026/06/13 17:57:35 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:57:35 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 17:57:45 Manual scan requested by user
+[INFO] 2026/06/13 17:57:45 Discovery service stopped
+[INFO] 2026/06/13 17:57:45 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:57:45 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 17:57:55 Manual scan requested by user
+[INFO] 2026/06/13 17:57:55 Discovery service stopped
+[INFO] 2026/06/13 17:57:56 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:57:56 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 17:58:02 Manual scan requested by user
+[INFO] 2026/06/13 17:58:02 Manual scan requested by user
+[INFO] 2026/06/13 17:58:02 Discovery service stopped
+[INFO] 2026/06/13 17:58:02 Discovery service stopped
+[INFO] 2026/06/13 17:58:03 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:58:03 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:58:03 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 17:58:05 Manual scan requested by user
+[INFO] 2026/06/13 17:58:05 Discovery service stopped
+[INFO] 2026/06/13 17:58:06 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:58:06 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 17:58:15 Manual scan requested by user
+[INFO] 2026/06/13 17:58:15 Discovery service stopped
+[INFO] 2026/06/13 17:58:16 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:58:16 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 17:58:18 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 17:58:25 Manual scan requested by user
+[INFO] 2026/06/13 17:58:25 Discovery service stopped
+[INFO] 2026/06/13 17:58:26 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:58:26 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 17:58:35 Manual scan requested by user
+[INFO] 2026/06/13 17:58:35 Discovery service stopped
+[INFO] 2026/06/13 17:58:36 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:58:36 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 17:58:45 Manual scan requested by user
+[INFO] 2026/06/13 17:58:45 Discovery service stopped
+[INFO] 2026/06/13 17:58:46 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:58:46 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 17:59:01 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 17:59:02 Manual scan requested by user
+[INFO] 2026/06/13 17:59:02 Manual scan requested by user
+[INFO] 2026/06/13 17:59:02 Manual scan requested by user
+[INFO] 2026/06/13 17:59:02 Discovery service stopped
+[INFO] 2026/06/13 17:59:02 Discovery service stopped
+[INFO] 2026/06/13 17:59:02 Discovery service stopped
+[INFO] 2026/06/13 17:59:03 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:59:03 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:59:03 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 17:59:03 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 17:59:18 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 17:59:18 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 17:59:18 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 17:59:33 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 17:59:33 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 17:59:33 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 17:59:48 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 17:59:48 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 17:59:48 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:00:02 Manual scan requested by user
+[INFO] 2026/06/13 18:00:02 Manual scan requested by user
+[INFO] 2026/06/13 18:00:02 Manual scan requested by user
+[INFO] 2026/06/13 18:00:02 Discovery service stopped
+[INFO] 2026/06/13 18:00:02 Discovery service stopped
+[INFO] 2026/06/13 18:00:02 Discovery service stopped
+[INFO] 2026/06/13 18:00:03 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:00:03 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:00:03 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:00:03 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 18:00:18 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:00:18 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:00:18 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:00:33 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:00:33 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:00:33 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:00:48 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:00:48 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:00:48 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:00:51 Manual scan requested by user
+[INFO] 2026/06/13 18:00:51 Discovery service stopped
+[INFO] 2026/06/13 18:00:52 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:00:52 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 18:00:52 WebSocket client disconnected
+[INFO] 2026/06/13 18:00:54 Manual scan requested by user
+[INFO] 2026/06/13 18:00:54 Discovery service stopped
+[INFO] 2026/06/13 18:00:55 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:00:55 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 18:00:55 WebSocket client disconnected
+[INFO] 2026/06/13 18:01:02 Manual scan requested by user
+[INFO] 2026/06/13 18:01:02 Discovery service stopped
+[INFO] 2026/06/13 18:01:03 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:01:03 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 18:01:18 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:01:33 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:01:48 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:02:02 Manual scan requested by user
+[INFO] 2026/06/13 18:02:02 Discovery service stopped
+[INFO] 2026/06/13 18:02:03 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:02:03 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 18:02:18 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:02:33 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:02:48 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:03:02 Manual scan requested by user
+[INFO] 2026/06/13 18:03:02 Discovery service stopped
+[INFO] 2026/06/13 18:03:03 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:03:03 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 18:03:18 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:03:33 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:03:48 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:04:02 Manual scan requested by user
+[INFO] 2026/06/13 18:04:02 Discovery service stopped
+[INFO] 2026/06/13 18:04:03 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:04:03 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 18:04:18 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:04:33 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:04:48 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:05:02 Manual scan requested by user
+[INFO] 2026/06/13 18:05:02 Discovery service stopped
+[INFO] 2026/06/13 18:05:03 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:05:03 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 18:05:18 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:05:33 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:05:48 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:06:02 Manual scan requested by user
+[INFO] 2026/06/13 18:06:02 Discovery service stopped
+[INFO] 2026/06/13 18:06:03 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:06:03 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 18:06:18 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:06:33 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:06:48 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:07:02 Manual scan requested by user
+[INFO] 2026/06/13 18:07:02 Discovery service stopped
+[INFO] 2026/06/13 18:07:03 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:07:03 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 18:07:18 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:07:33 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:07:48 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:08:02 Manual scan requested by user
+[INFO] 2026/06/13 18:08:02 Discovery service stopped
+[INFO] 2026/06/13 18:08:03 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:08:03 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 18:08:18 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:08:33 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:08:48 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:09:02 Manual scan requested by user
+[INFO] 2026/06/13 18:09:02 Discovery service stopped
+[INFO] 2026/06/13 18:09:03 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:09:03 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 18:09:18 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:09:33 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:09:48 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:10:02 Manual scan requested by user
+[INFO] 2026/06/13 18:10:02 Discovery service stopped
+[INFO] 2026/06/13 18:10:03 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:10:03 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 18:10:18 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:10:33 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:10:48 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:11:02 Manual scan requested by user
+[INFO] 2026/06/13 18:11:02 Discovery service stopped
+[INFO] 2026/06/13 18:11:03 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:11:03 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 18:11:18 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:11:33 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:11:48 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:12:02 Manual scan requested by user
+[INFO] 2026/06/13 18:12:02 Discovery service stopped
+[INFO] 2026/06/13 18:12:03 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:12:03 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/06/13 18:12:18 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:12:33 Performing periodic background mDNS scan...
+[INFO] 2026/06/13 18:12:39 Received OS signal: terminated. Shutting down...
+[INFO] 2026/06/13 18:12:39 Discovery service stopped
+[INFO] 2026/06/13 18:12:39 TCP Receiver stopped
+[INFO] 2026/06/13 18:24:18 Starting P2P File Transfer Application...
+[INFO] 2026/06/13 18:24:18 TCP Receiver started on :50005
+[INFO] 2026/06/13 18:24:18 WebSocket server starting on :8081
+[INFO] 2026/06/13 18:24:18 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:24:18 Fiber web server starting on http://localhost:8080
+[INFO] 2026/06/13 18:24:19 Opening dashboard in browser...
+[INFO] 2026/06/13 18:24:20 WebSocket client connected
+[INFO] 2026/06/13 18:24:20 Manual scan requested by user
+[INFO] 2026/06/13 18:24:20 Discovery service stopped
+[INFO] 2026/06/13 18:24:20 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:24:30 Manual scan requested by user
+[INFO] 2026/06/13 18:24:30 Discovery service stopped
+[INFO] 2026/06/13 18:24:31 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:24:40 Manual scan requested by user
+[INFO] 2026/06/13 18:24:40 Discovery service stopped
+[INFO] 2026/06/13 18:24:41 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:24:50 Manual scan requested by user
+[INFO] 2026/06/13 18:24:50 Discovery service stopped
+[INFO] 2026/06/13 18:24:51 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:25:00 Manual scan requested by user
+[INFO] 2026/06/13 18:25:00 Discovery service stopped
+[INFO] 2026/06/13 18:25:01 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:25:10 Manual scan requested by user
+[INFO] 2026/06/13 18:25:10 Discovery service stopped
+[INFO] 2026/06/13 18:25:11 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:25:20 Manual scan requested by user
+[INFO] 2026/06/13 18:25:20 Discovery service stopped
+[INFO] 2026/06/13 18:25:21 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:25:30 Manual scan requested by user
+[INFO] 2026/06/13 18:25:30 Discovery service stopped
+[INFO] 2026/06/13 18:25:31 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:25:40 Manual scan requested by user
+[INFO] 2026/06/13 18:25:40 Discovery service stopped
+[INFO] 2026/06/13 18:25:41 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:25:50 Manual scan requested by user
+[INFO] 2026/06/13 18:25:50 Discovery service stopped
+[INFO] 2026/06/13 18:25:51 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:26:00 Manual scan requested by user
+[INFO] 2026/06/13 18:26:00 Discovery service stopped
+[INFO] 2026/06/13 18:26:01 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:26:10 Manual scan requested by user
+[INFO] 2026/06/13 18:26:10 Discovery service stopped
+[INFO] 2026/06/13 18:26:11 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:26:20 Manual scan requested by user
+[INFO] 2026/06/13 18:26:20 Discovery service stopped
+[INFO] 2026/06/13 18:26:21 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:26:30 Manual scan requested by user
+[INFO] 2026/06/13 18:26:30 Discovery service stopped
+[INFO] 2026/06/13 18:26:31 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:26:40 Manual scan requested by user
+[INFO] 2026/06/13 18:26:40 Discovery service stopped
+[INFO] 2026/06/13 18:26:41 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:26:50 Manual scan requested by user
+[INFO] 2026/06/13 18:26:50 Discovery service stopped
+[INFO] 2026/06/13 18:26:51 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:27:00 Manual scan requested by user
+[INFO] 2026/06/13 18:27:00 Discovery service stopped
+[INFO] 2026/06/13 18:27:01 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:27:10 Manual scan requested by user
+[INFO] 2026/06/13 18:27:10 Discovery service stopped
+[INFO] 2026/06/13 18:27:11 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:27:20 Manual scan requested by user
+[INFO] 2026/06/13 18:27:20 Discovery service stopped
+[INFO] 2026/06/13 18:27:21 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:27:30 Manual scan requested by user
+[INFO] 2026/06/13 18:27:30 Discovery service stopped
+[INFO] 2026/06/13 18:27:31 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:27:40 Manual scan requested by user
+[INFO] 2026/06/13 18:27:40 Discovery service stopped
+[INFO] 2026/06/13 18:27:40 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.15
+[INFO] 2026/06/13 18:27:41 WebSocket client disconnected
+[INFO] 2026/06/13 18:27:44 Received OS signal: interrupt. Shutting down...
+[INFO] 2026/06/13 18:27:44 Discovery service stopped
+[INFO] 2026/06/13 18:27:44 TCP Receiver stopped
