@@ -7,12 +7,14 @@ import (
 	"os/exec"
 	"os/signal"
 	"path/filepath"
+	"strconv"
 	"syscall"
 	"time"
 
 	"p2p-transfer"
 	"p2p-transfer/internal/config"
 	"p2p-transfer/internal/discovery"
+	"p2p-transfer/internal/firewall"
 	"p2p-transfer/internal/history"
 	"p2p-transfer/internal/logger"
 	"p2p-transfer/internal/models"
@@ -23,6 +25,18 @@ import (
 )
 
 func main() {
+	if len(os.Args) == 3 && os.Args[1] == "--install-firewall-rule" {
+		port, err := strconv.Atoi(os.Args[2])
+		if err == nil {
+			err = firewall.InstallTransferPort(port)
+		}
+		if err != nil {
+			fmt.Fprintln(os.Stderr, "Failed to configure transfer firewall rule:", err)
+			os.Exit(1)
+		}
+		return
+	}
+
 	// 1. Initialize Logger
 	if err := logger.Init(); err != nil {
 		panic("Failed to initialize logger: " + err.Error())
@@ -43,6 +57,9 @@ func main() {
 	if err != nil {
 		logger.Error("Failed to initialize configuration: %v", err)
 		os.Exit(1)
+	}
+	if err := firewall.EnsureTransferPort(cfg.TransferPort); err != nil {
+		logger.Warn("Could not request firewall permission for TCP port %d: %v", cfg.TransferPort, err)
 	}
 
 	// 3. Initialize History
@@ -123,7 +140,7 @@ func main() {
 	go func() {
 		time.Sleep(2 * time.Second)
 		systray.ShowNotification(
-			"P2P File Transfer Active", 
+			"P2P File Transfer Active",
 			fmt.Sprintf("Device: %s\nScan active on LAN transfer port %d", cfg.DeviceName, cfg.TransferPort),
 		)
 	}()
@@ -131,7 +148,7 @@ func main() {
 	// 10. Handle OS shutdown signals for clean exit
 	sigChan := make(chan os.Signal, 1)
 	signal.Notify(sigChan, os.Interrupt, syscall.SIGTERM)
-	
+
 	select {
 	case sig := <-sigChan:
 		logger.Info("Received OS signal: %v. Shutting down...", sig)

@@ -5,17 +5,18 @@ import (
 	"net/http"
 	"os"
 	"os/exec"
-	"path/filepath"
-	"strings"
 	"p2p-transfer"
 	"p2p-transfer/internal/config"
 	"p2p-transfer/internal/discovery"
+	"p2p-transfer/internal/firewall"
 	"p2p-transfer/internal/history"
 	"p2p-transfer/internal/logger"
 	"p2p-transfer/internal/models"
 	"p2p-transfer/internal/transfer"
 	"p2p-transfer/internal/utils"
 	"p2p-transfer/internal/websocket"
+	"path/filepath"
+	"strings"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
@@ -38,12 +39,12 @@ func Start(port int) {
 		PathPrefix: "web/static",
 	}))
 
-	// Dashboard page from embedded FS
+	// Dashboard page from the embedded React build
 	app.Get("/", func(c *fiber.Ctx) error {
-		indexFile, err := p2ptransfer.WebFS.ReadFile("web/templates/index.html")
+		indexFile, err := p2ptransfer.WebFS.ReadFile("web/static/dist/index.html")
 		if err != nil {
-			logger.Error("Failed to read embedded index.html: %v", err)
-			return c.Status(500).SendString("Dashboard template not found in embedded FS")
+			logger.Error("Failed to read embedded React index.html: %v", err)
+			return c.Status(500).SendString("Dashboard build not found in embedded FS")
 		}
 		c.Set(fiber.HeaderContentType, fiber.MIMETextHTMLCharsetUTF8)
 		return c.Send(indexFile)
@@ -92,6 +93,9 @@ func Start(port int) {
 		// Restart TCP receiver if port changed
 		if settings.TransferPort != oldPort {
 			logger.Info("Transfer port changed from %d to %d. Restarting receiver...", oldPort, settings.TransferPort)
+			if err := firewall.EnsureTransferPort(settings.TransferPort); err != nil {
+				logger.Warn("Could not request firewall permission for TCP port %d: %v", settings.TransferPort, err)
+			}
 			transfer.StopTCPReceiver()
 			if err := transfer.StartTCPReceiver(settings.TransferPort); err != nil {
 				logger.Error("Failed to restart TCP receiver on port %d: %v", settings.TransferPort, err)
@@ -118,8 +122,8 @@ func Start(port int) {
 	// Trigger manual scan
 	api.Post("/scan", func(c *fiber.Ctx) error {
 		logger.Info("Manual scan requested by user")
-		if err := discovery.Restart(); err != nil {
-			return c.Status(500).JSON(fiber.Map{"error": err.Error()})
+		if !discovery.RequestScan() {
+			return c.Status(503).JSON(fiber.Map{"error": "discovery service is not running"})
 		}
 		return c.JSON(fiber.Map{"status": "scanning"})
 	})
@@ -167,7 +171,7 @@ func Start(port int) {
 		if err != nil {
 			return c.Status(500).JSON(fiber.Map{"error": err.Error()})
 		}
-		
+
 		type FileInfo struct {
 			Path string `json:"path"`
 			Name string `json:"name"`
@@ -196,12 +200,12 @@ func Start(port int) {
 		if folder == "" {
 			return c.JSON(fiber.Map{"files": []interface{}{}})
 		}
-		
+
 		info, err := os.Stat(folder)
 		if err != nil {
 			return c.Status(500).JSON(fiber.Map{"error": err.Error()})
 		}
-		
+
 		return c.JSON(fiber.Map{"files": []interface{}{
 			fiber.Map{
 				"path": folder,
@@ -385,14 +389,14 @@ func Start(port int) {
 	// Browse local files and drives
 	api.Get("/browse", func(c *fiber.Ctx) error {
 		path := c.Query("path")
-		
+
 		type BrowseItem struct {
 			Name  string `json:"name"`
 			Path  string `json:"path"`
 			IsDir bool   `json:"isDir"`
 			Size  int64  `json:"size"`
 		}
-		
+
 		if path == "" || path == "drives" {
 			var items []BrowseItem
 			for _, d := range []string{"C:", "D:", "E:", "F:", "G:", "H:", "I:", "J:", "K:"} {
@@ -424,7 +428,7 @@ func Start(port int) {
 			if strings.HasPrefix(entry.Name(), "$") || entry.Name() == "System Volume Information" {
 				continue
 			}
-			
+
 			size := int64(0)
 			if !entry.IsDir() {
 				if info, err := entry.Info(); err == nil {

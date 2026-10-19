@@ -3,13 +3,13 @@ package discovery
 import (
 	"context"
 	"fmt"
-	"strings"
-	"sync"
-	"time"
 	"p2p-transfer/internal/config"
 	"p2p-transfer/internal/logger"
 	"p2p-transfer/internal/models"
 	"p2p-transfer/internal/utils"
+	"strings"
+	"sync"
+	"time"
 
 	"github.com/grandcat/zeroconf"
 )
@@ -18,10 +18,10 @@ var (
 	devices         = make(map[string]models.Device)
 	devicesMu       sync.RWMutex
 	server          *zeroconf.Server
-	resolver        *zeroconf.Resolver
 	cancelDiscovery context.CancelFunc
-	discoveryCtx    context.Context
-	
+	scanRequests    chan struct{}
+	scanRequestsMu  sync.RWMutex
+
 	// OnDeviceChange is a callback triggered when the list of devices changes.
 	OnDeviceChange func(devices []models.Device)
 )
@@ -57,7 +57,7 @@ func Start() error {
 	}
 
 	logger.Info("Advertising mDNS service: Name=%s, Port=%d, IP=%s", cfg.DeviceName, cfg.TransferPort, ip)
-	
+
 	srv, err := zeroconf.Register(
 		cfg.DeviceName,
 		"_p2ptransfer._tcp",
@@ -77,16 +77,19 @@ func Start() error {
 		server.Shutdown()
 		return fmt.Errorf("failed to create resolver: %w", err)
 	}
-	resolver = res
-
-	discoveryCtx, cancelDiscovery = context.WithCancel(context.Background())
+	ctx, cancel := context.WithCancel(context.Background())
+	cancelDiscovery = cancel
+	requests := make(chan struct{}, 1)
+	scanRequestsMu.Lock()
+	scanRequests = requests
+	scanRequestsMu.Unlock()
 
 	// Start browsing
 	entries := make(chan *zeroconf.ServiceEntry)
 	go func() {
 		for {
 			select {
-			case <-discoveryCtx.Done():
+			case <-ctx.Done():
 				return
 			case entry, ok := <-entries:
 				if !ok {
@@ -98,56 +101,87 @@ func Start() error {
 	}()
 
 	go func() {
-		err := resolver.Browse(discoveryCtx, "_p2ptransfer._tcp", "local.", entries)
-		if err != nil && discoveryCtx.Err() == nil {
+		err := res.Browse(ctx, "_p2ptransfer._tcp", "local.", entries)
+		if err != nil && ctx.Err() == nil {
 			logger.Error("Error browsing mDNS services: %v", err)
 		}
 	}()
 
-	// Start periodic query loop to keep devices alive and find any that missed the initial multicast
+	// Keep browsing in the background and allow manual scans without restarting mDNS.
 	go func() {
 		ticker := time.NewTicker(15 * time.Second)
 		defer ticker.Stop()
 		for {
 			select {
-			case <-discoveryCtx.Done():
+			case <-ctx.Done():
 				return
 			case <-ticker.C:
-				logger.Info("Performing periodic background mDNS scan...")
-				browseCtx, browseCancel := context.WithTimeout(discoveryCtx, 5*time.Second)
-				browseEntries := make(chan *zeroconf.ServiceEntry)
-				
-				go func() {
-					for {
-						select {
-						case <-browseCtx.Done():
-							return
-						case entry, ok := <-browseEntries:
-							if !ok {
-								return
-							}
-							handleServiceEntry(entry)
-						}
-					}
-				}()
-				
-				err := resolver.Browse(browseCtx, "_p2ptransfer._tcp", "local.", browseEntries)
-				if err != nil && browseCtx.Err() != context.DeadlineExceeded && browseCtx.Err() != context.Canceled {
-					logger.Error("Periodic mDNS browse error: %v", err)
-				}
-				browseCancel()
+				browseServices(ctx, "Periodic")
+			case <-requests:
+				browseServices(ctx, "Manual")
 			}
 		}
 	}()
 
 	// Start background housekeeper to mark offline devices
-	go housekeeper()
+	go housekeeper(ctx)
 
 	return nil
 }
 
+// RequestScan starts an immediate mDNS browse without interrupting advertising.
+func RequestScan() bool {
+	scanRequestsMu.RLock()
+	requests := scanRequests
+	scanRequestsMu.RUnlock()
+	if requests == nil {
+		return false
+	}
+	select {
+	case requests <- struct{}{}:
+	default:
+		// A scan is already queued, so the request is accepted.
+	}
+	return true
+}
+
+func browseServices(parent context.Context, label string) {
+	res, err := zeroconf.NewResolver(nil)
+	if err != nil {
+		logger.Error("%s mDNS resolver error: %v", label, err)
+		return
+	}
+	browseCtx, browseCancel := context.WithTimeout(parent, 5*time.Second)
+	defer browseCancel()
+	entries := make(chan *zeroconf.ServiceEntry)
+	go func() {
+		for {
+			select {
+			case <-browseCtx.Done():
+				return
+			case entry, ok := <-entries:
+				if !ok {
+					return
+				}
+				handleServiceEntry(entry)
+			}
+		}
+	}()
+
+	if err := res.Browse(browseCtx, "_p2ptransfer._tcp", "local.", entries); err != nil {
+		logger.Error("%s mDNS browse error: %v", label, err)
+		return
+	}
+	// Browse starts its receive loop and returns immediately after sending the
+	// query. Keep this resolver alive for the timeout so responses can arrive.
+	<-browseCtx.Done()
+}
+
 // Stop halts advertising and browsing.
 func Stop() {
+	scanRequestsMu.Lock()
+	scanRequests = nil
+	scanRequestsMu.Unlock()
 	if cancelDiscovery != nil {
 		cancelDiscovery()
 	}
@@ -187,7 +221,7 @@ func UpdateDeviceStatus(deviceID string, status string) {
 		devices[deviceID] = dev
 	}
 	devicesMu.Unlock()
-	
+
 	if exists {
 		triggerChangeCallback()
 	}
@@ -195,7 +229,7 @@ func UpdateDeviceStatus(deviceID string, status string) {
 
 func handleServiceEntry(entry *zeroconf.ServiceEntry) {
 	cfg := config.Get()
-	
+
 	var peerID, name, hostname, status string
 	for _, txt := range entry.Text {
 		parts := strings.SplitN(txt, "=", 2)
@@ -233,17 +267,17 @@ func handleServiceEntry(entry *zeroconf.ServiceEntry) {
 
 	devicesMu.Lock()
 	existing, exists := devices[peerID]
-	
+
 	newDev := models.Device{
-		ID:        peerID,
-		Hostname:  hostname,
-		Name:      name,
-		IP:        ip,
-		Port:      entry.Port,
-		Status:    status,
-		LastSeen:  time.Now(),
+		ID:       peerID,
+		Hostname: hostname,
+		Name:     name,
+		IP:       ip,
+		Port:     entry.Port,
+		Status:   status,
+		LastSeen: time.Now(),
 	}
-	
+
 	devices[peerID] = newDev
 	devicesMu.Unlock()
 
@@ -254,18 +288,18 @@ func handleServiceEntry(entry *zeroconf.ServiceEntry) {
 	}
 }
 
-func housekeeper() {
+func housekeeper(ctx context.Context) {
 	ticker := time.NewTicker(3 * time.Second)
 	defer ticker.Stop()
 
 	for {
 		select {
-		case <-discoveryCtx.Done():
+		case <-ctx.Done():
 			return
 		case <-ticker.C:
 			changed := false
 			now := time.Now()
-			
+
 			devicesMu.Lock()
 			for id, dev := range devices {
 				// If we haven't seen the device in 120 seconds, mark it as offline

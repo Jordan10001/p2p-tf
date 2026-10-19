@@ -4,5 +4,5 @@ import "embed"
 
 // WebFS holds our embedded web templates and static assets.
 //
-//go:embed web/templates/* web/static/css/* web/static/js/* web/static/icons/*
+//go:embed web/static/icons/* web/static/dist/*
 var WebFS embed.FS
