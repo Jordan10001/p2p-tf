@@ -90,12 +90,12 @@ No external compilation tools (like GCC for CGO) are required. Build natively in
 1. Clone or copy the repository.
 2. Open PowerShell in the `/p2p-tf` directory.
 3. Run :
-  ```powershell
-  cd frontend
-  npm ci
-  npm run build
-  cd ..
-  ```
+   ```powershell
+   cd frontend
+   npm ci
+   npm run build
+   cd ..
+   ```
 4. Run the standard compile command:
    ```powershell
    go build -o p2p-tf-cli.exe cmd/p2p-tf/main.go
