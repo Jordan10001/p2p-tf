@@ -131,10 +131,10 @@ No external compilation tools (like GCC for CGO) are required. Build natively in
 ---
 
 ## Screenshots
-<img width="1917" height="1078" alt="Dashborad" src="https://github.com/user-attachments/assets/4ef901c7-7754-4150-8f93-e73a3b62f855" />
-<img width="1917" height="1078" alt="Transfers" src="https://github.com/user-attachments/assets/e24c6a9c-23d3-484c-a240-fc251ec19f00" />
-<img width="1917" height="1078" alt="History" src="https://github.com/user-attachments/assets/b72b16e0-770f-42fe-941d-159ee4222942" />
-<img width="1917" height="1078" alt="Settings" src="https://github.com/user-attachments/assets/06679a0c-a8f9-426c-a769-d445b22b6561" />
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/fa236fc8-3894-478f-91ff-9673f1355742" />
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/282b0f8f-69fb-4e43-8a76-d8deba888517" />
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/f4c64b74-bfbf-4df9-9b07-de43999f7dde" />
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/ccb1e5af-0641-4404-a6bf-6b9c2c90abb0" />
 
 ---
 
