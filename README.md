@@ -23,11 +23,24 @@ P2P-TF is a peer-to-peer file transfer app for Windows. Devices discover each ot
 ├── /cmd
 │   └── /p2p-tf
 │       └── main.go                 # App Entry point (orchestration & signals)
+├── /frontend
+│   ├── /node_modules
+│   ├── /script
+│   ├── /src
+│   │   ├── main.jsx       
+│   │   └── style.css         
+│   ├── index.html
+│   ├── package-lock.json
+│   ├── package.json
+│   └── vite.config.js  
 ├── /internal
 │   ├── /config
 │   │   └── config.go               # JSON Settings manager (%USERPROFILE%/.p2p-transfer/config.json)
 │   ├── /discovery
 │   │   └── discovery.go            # mDNS advertisement and peer sweep daemon
+│   ├── /fireall
+│   │   ├── firewall_other.go       
+│   │   └── firewall_windows.go          
 │   ├── /history
 │   │   └── history.go              # JSON Transfer logs (%USERPROFILE%/.p2p-transfer/history.json)
 │   ├── /logger
@@ -50,21 +63,21 @@ P2P-TF is a peer-to-peer file transfer app for Windows. Devices discover each ot
 │   │   └── web.go                  # Fiber Web Server REST endpoints
 │   └── /websocket
 │       └── websocket.go            # WebSocket hub and client connections for live UI updates
+├── /logs
+│   └── log
 ├── /web
-│   ├── /static
-│   │   ├── /dist
-│   │   │   └── style.css           # Custom scrollbars, glass styles, pulse animations
-│   │   ├── /icons
-│   │   │   ├── favicon.ico         # App favicon
-│   │   │   └── logo.png            # App logo image
-│   │   └── /js
-│   │       ├── app.js              # Web Client logic (WebSocket, HTTP REST, DragDrop, UI states)
-│   │       └── tailwind.min.js     # Tailwind CSS framework script
-│   └── /templates
-│       └── index.html              # Dashboard HTML template
+│   └── /static
+│       ├── /dist
+│       │   ├── app.css
+│       │   ├── app.js
+│       │   └── index.html           # Custom scrollbars, glass styles, pulse animations
+│       └── /icons
+│           ├── favicon.ico         # App favicon
+│           └── logo.svg            # App logo image              
 ├── embed.go                        # Web templates and static assets embed directives
 ├── go.mod
 ├── go.sum
+├── file.exe
 └── README.md
 ```
 
