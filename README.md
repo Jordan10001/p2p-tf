@@ -1,8 +1,7 @@
-# Peer-to-Peer LAN File Transfer Application (Go & Windows Only)
+# P2P-TF
 
-A production-ready, decentralized, LAN-based file transfer application built in Go for Windows 10 and 11. It allows multiple computers on the same Local Area Network (LAN) to automatically discover each other and transfer files/directories directly without using any central server, relay server, cloud storage, or active internet connection.
+P2P-TF is a peer-to-peer file transfer app for Windows. Devices discover each other on the local network with mDNS and send files directly over TCP. Transfers do not use a relay or cloud service.
 
-It provides a modern user experience comparable to AirDrop or LocalSend, running fully standalone inside `p2p-transfer.exe` with zero external runtimes.
 
 ## Features
 
@@ -53,7 +52,7 @@ It provides a modern user experience comparable to AirDrop or LocalSend, running
 │       └── websocket.go            # WebSocket hub and client connections for live UI updates
 ├── /web
 │   ├── /static
-│   │   ├── /css
+│   │   ├── /dist
 │   │   │   └── style.css           # Custom scrollbars, glass styles, pulse animations
 │   │   ├── /icons
 │   │   │   ├── favicon.ico         # App favicon
@@ -76,16 +75,23 @@ It provides a modern user experience comparable to AirDrop or LocalSend, running
 No external compilation tools (like GCC for CGO) are required. Build natively in pure Go:
 
 1. Clone or copy the repository.
-2. Open PowerShell in the `/p2p-transfer` directory.
-3. Run the standard compile command:
+2. Open PowerShell in the `/p2p-tf` directory.
+3. Run :
+  ```powershell
+  cd frontend
+  npm ci
+  npm run build
+  cd ..
+  ```
+4. Run the standard compile command:
    ```powershell
-   go build -o p2p-transfer-cli.exe cmd/p2p-tf/main.go
+   go build -o p2p-tf-cli.exe cmd/p2p-tf/main.go
    ```
-4. To compile as a background Windows GUI application (hiding the black command prompt window when launching `p2p-transfer.exe`), append the window flags:
+5. To compile as a background Windows GUI application (hiding the black command prompt window when launching `p2p-transfer.exe`), append the window flags:
    ```powershell
-   go build -ldflags="-H windowsgui" -o p2p-transfer.exe cmd/p2p-tf/main.go
+   go build -ldflags="-H windowsgui" -o p2p-tf.exe cmd/p2p-tf/main.go
    ```
-5. Run the standard compile command:
+6. Run no compile :
    ```powershell
    go run cmd/p2p-tf/main.go
    ```
@@ -132,6 +138,14 @@ Receiving nodes execute rigorous path checking on every file payload. In additio
 
 ### 3. File Collision Auto-Renaming (`internal/utils/utils.go`)
 If the transfer completes and a file with the same name already exists in the target folder, the receiver triggers a unique filename loop. It checks if `file.pdf` is present, then tries `file (1).pdf`, `file (2).pdf`, and so on, until it resolves a non-conflicting path before renaming the completed `.part` buffer.
+
+
+## Network ports
+
+- UDP `5353`: mDNS device discovery on the local network.
+- TCP `50005` by default: file transfers. The transfer port can be changed in Settings.
+- TCP `8080`: local dashboard HTTP server.
+- TCP `8081`: local WebSocket updates.
 
 ---
 

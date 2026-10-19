@@ -227,3 +227,61 @@
 [INFO] 2026/10/19 22:17:17 Received OS signal: terminated. Shutting down...
 [INFO] 2026/10/19 22:17:17 Discovery service stopped
 [INFO] 2026/10/19 22:17:17 TCP Receiver stopped
+[INFO] 2026/10/19 22:17:21 Starting P2P File Transfer Application...
+[INFO] 2026/10/19 22:17:23 TCP Receiver started on :50005
+[INFO] 2026/10/19 22:17:23 WebSocket server starting on :8081
+[INFO] 2026/10/19 22:17:23 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.10
+[INFO] 2026/10/19 22:17:23 Fiber web server starting on http://localhost:8080
+[INFO] 2026/10/19 22:17:23 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/10/19 22:17:24 Opening dashboard in browser...
+[INFO] 2026/10/19 22:17:25 WebSocket client connected
+[INFO] 2026/10/19 22:17:25 WebSocket client connected
+[INFO] 2026/10/19 22:17:25 WebSocket client connected
+[INFO] 2026/10/19 22:17:42 Starting transfer sender 1ebe3e97-51b9-4be8-bd55-31782e1e1995 to PC1-P2P (192.168.1.17)
+[INFO] 2026/10/19 22:17:49 Transfer sender completed for ID: 1ebe3e97-51b9-4be8-bd55-31782e1e1995
+[INFO] 2026/10/19 22:21:38 WebSocket client disconnected
+[INFO] 2026/10/19 22:21:39 WebSocket client disconnected
+[INFO] 2026/10/19 22:29:54 Received OS signal: terminated. Shutting down...
+[INFO] 2026/10/19 22:29:54 Discovery service stopped
+[INFO] 2026/10/19 22:29:54 TCP Receiver stopped
+[INFO] 2026/10/19 22:30:02 Starting P2P File Transfer Application...
+[INFO] 2026/10/19 22:30:05 TCP Receiver started on :50005
+[INFO] 2026/10/19 22:30:05 WebSocket server starting on :8081
+[INFO] 2026/10/19 22:30:05 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.10
+[INFO] 2026/10/19 22:30:05 Fiber web server starting on http://localhost:8080
+[INFO] 2026/10/19 22:30:05 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/10/19 22:30:06 Opening dashboard in browser...
+[INFO] 2026/10/19 22:30:07 WebSocket client connected
+[INFO] 2026/10/19 22:30:09 WebSocket client connected
+[INFO] 2026/10/19 22:32:54 Received OS signal: terminated. Shutting down...
+[INFO] 2026/10/19 22:32:54 Discovery service stopped
+[INFO] 2026/10/19 22:32:54 TCP Receiver stopped
+[INFO] 2026/10/19 22:32:56 Starting P2P File Transfer Application...
+[INFO] 2026/10/19 22:32:58 TCP Receiver started on :50005
+[INFO] 2026/10/19 22:32:58 WebSocket server starting on :8081
+[INFO] 2026/10/19 22:32:58 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.10
+[INFO] 2026/10/19 22:32:58 Fiber web server starting on http://localhost:8080
+[INFO] 2026/10/19 22:32:58 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/10/19 22:32:59 Opening dashboard in browser...
+[INFO] 2026/10/19 22:33:00 WebSocket client connected
+[INFO] 2026/10/19 22:33:02 WebSocket client connected
+[INFO] 2026/10/19 22:33:02 WebSocket client connected
+[INFO] 2026/10/19 22:34:11 Starting transfer sender 77b461ce-b8fe-45c4-b5bf-c8236822297c to PC1-P2P (192.168.1.17)
+[INFO] 2026/10/19 22:34:26 Transfer sender completed for ID: 77b461ce-b8fe-45c4-b5bf-c8236822297c
+[INFO] 2026/10/19 22:36:10 Transfer port changed from 50005 to 50000. Restarting receiver...
+[INFO] 2026/10/19 22:36:14 TCP Receiver stopped
+[INFO] 2026/10/19 22:36:14 TCP Receiver started on :50000
+[INFO] 2026/10/19 22:36:14 Discovery configurations changed. Restarting discovery...
+[INFO] 2026/10/19 22:36:14 Discovery service stopped
+[INFO] 2026/10/19 22:36:14 Advertising mDNS service: Name=Nitro, Port=50000, IP=192.168.1.10
+[INFO] 2026/10/19 22:36:14 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/10/19 22:36:22 Transfer port changed from 50000 to 50005. Restarting receiver...
+[INFO] 2026/10/19 22:36:23 TCP Receiver stopped
+[INFO] 2026/10/19 22:36:23 TCP Receiver started on :50005
+[INFO] 2026/10/19 22:36:23 Discovery configurations changed. Restarting discovery...
+[INFO] 2026/10/19 22:36:23 Discovery service stopped
+[INFO] 2026/10/19 22:36:24 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.10
+[INFO] 2026/10/19 22:36:24 Device discovered/updated: PC1-P2P (ferrytam) at 192.168.1.17:50005, status: online
+[INFO] 2026/10/19 22:36:46 Received OS signal: terminated. Shutting down...
+[INFO] 2026/10/19 22:36:46 Discovery service stopped
+[INFO] 2026/10/19 22:36:46 TCP Receiver stopped
