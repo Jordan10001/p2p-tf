@@ -116,7 +116,7 @@ func Start(port int) {
 
 	// Get current active devices
 	api.Get("/devices", func(c *fiber.Ctx) error {
-		return c.JSON(discovery.GetDevices())
+		return c.JSON(discovery.GetActiveDevices())
 	})
 
 	// Trigger manual scan
@@ -252,7 +252,8 @@ func Start(port int) {
 			return c.Status(400).JSON(fiber.Map{"error": "No files in queue to transfer"})
 		}
 
-		devices := discovery.GetDevices()
+		devices := discovery.GetActiveDevices()
+		targets := make([]models.Device, 0, len(req.DeviceIDs))
 		for _, id := range req.DeviceIDs {
 			var target *models.Device
 			for _, dev := range devices {
@@ -262,10 +263,14 @@ func Start(port int) {
 				}
 			}
 			if target != nil {
-				transfer.StartSendTransfer(*target, queue)
+				targets = append(targets, *target)
 			} else {
-				logger.Warn("Device with ID %s not found for transfer", id)
+				logger.Warn("Device with ID %s is not active for transfer", id)
+				return c.Status(404).JSON(fiber.Map{"error": fmt.Sprintf("Device %s is offline or unavailable", id)})
 			}
+		}
+		for _, target := range targets {
+			transfer.StartSendTransfer(target, queue)
 		}
 
 		// Clear send queue once transfer starts
@@ -310,7 +315,8 @@ func Start(port int) {
 			return c.Status(400).JSON(fiber.Map{"error": "No valid files found to transfer"})
 		}
 
-		devices := discovery.GetDevices()
+		devices := discovery.GetActiveDevices()
+		targets := make([]models.Device, 0, len(req.DeviceIDs))
 		for _, id := range req.DeviceIDs {
 			var target *models.Device
 			for _, dev := range devices {
@@ -320,8 +326,14 @@ func Start(port int) {
 				}
 			}
 			if target != nil {
-				transfer.StartSendTransfer(*target, items)
+				targets = append(targets, *target)
+			} else {
+				logger.Warn("Device with ID %s is not active for transfer", id)
+				return c.Status(404).JSON(fiber.Map{"error": fmt.Sprintf("Device %s is offline or unavailable", id)})
 			}
+		}
+		for _, target := range targets {
+			transfer.StartSendTransfer(target, items)
 		}
 
 		return c.JSON(fiber.Map{"status": "ok"})

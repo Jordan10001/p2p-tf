@@ -91,7 +91,7 @@ func main() {
 			}
 		}
 
-		sendToClient(client, "device_list", discovery.GetDevices())
+		sendToClient(client, "device_list", discovery.GetActiveDevices())
 		sendToClient(client, "config_update", config.Get())
 		sendToClient(client, "queue_update", transfer.GetQueue())
 		sendToClient(client, "history_update", history.GetEntries())

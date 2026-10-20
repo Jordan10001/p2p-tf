@@ -14,6 +14,8 @@ import (
 	"github.com/grandcat/zeroconf"
 )
 
+const offlineAfter = 30 * time.Second
+
 var (
 	devices         = make(map[string]models.Device)
 	devicesMu       sync.RWMutex
@@ -29,12 +31,19 @@ var (
 // Start begins advertising this device and searching for peers.
 func Start() error {
 	devicesMu.Lock()
-	// Mark existing devices as offline initially instead of clearing, preventing UI flash
+	changed := false
+	// Mark existing devices offline until they are rediscovered.
 	for id, dev := range devices {
-		dev.Status = "offline"
-		devices[id] = dev
+		if dev.Status != "offline" {
+			dev.Status = "offline"
+			devices[id] = dev
+			changed = true
+		}
 	}
 	devicesMu.Unlock()
+	if changed {
+		triggerChangeCallback()
+	}
 
 	cfg := config.Get()
 	if !cfg.EnableDiscovery {
@@ -211,6 +220,20 @@ func GetDevices() []models.Device {
 	return list
 }
 
+// GetActiveDevices returns only devices that are currently considered online.
+func GetActiveDevices() []models.Device {
+	devicesMu.RLock()
+	defer devicesMu.RUnlock()
+
+	list := make([]models.Device, 0, len(devices))
+	for _, dev := range devices {
+		if dev.Status != "offline" {
+			list = append(list, dev)
+		}
+	}
+	return list
+}
+
 // UpdateDeviceStatus updates the status of a specific device.
 func UpdateDeviceStatus(deviceID string, status string) {
 	devicesMu.Lock()
@@ -297,35 +320,35 @@ func housekeeper(ctx context.Context) {
 		case <-ctx.Done():
 			return
 		case <-ticker.C:
-			changed := false
-			now := time.Now()
-
-			devicesMu.Lock()
-			for id, dev := range devices {
-				// If we haven't seen the device in 120 seconds, mark it as offline
-				if dev.Status != "offline" && now.Sub(dev.LastSeen) > 120*time.Second {
-					dev.Status = "offline"
-					devices[id] = dev
-					changed = true
-					logger.Info("Device timed out: %s (%s)", dev.Name, dev.Hostname)
-				}
-				// Remove completely if offline for more than 10 minutes
-				if dev.Status == "offline" && now.Sub(dev.LastSeen) > 10*time.Minute {
-					delete(devices, id)
-					changed = true
-				}
-			}
-			devicesMu.Unlock()
-
-			if changed {
+			if markStaleDevicesOffline(time.Now()) {
 				triggerChangeCallback()
 			}
 		}
 	}
 }
 
+func markStaleDevicesOffline(now time.Time) bool {
+	changed := false
+	devicesMu.Lock()
+	for id, dev := range devices {
+		if dev.Status != "offline" && now.Sub(dev.LastSeen) > offlineAfter {
+			dev.Status = "offline"
+			devices[id] = dev
+			changed = true
+			logger.Info("Device timed out: %s (%s)", dev.Name, dev.Hostname)
+		}
+		// Remove offline entries after 10 minutes to keep the cache bounded.
+		if dev.Status == "offline" && now.Sub(dev.LastSeen) > 10*time.Minute {
+			delete(devices, id)
+			changed = true
+		}
+	}
+	devicesMu.Unlock()
+	return changed
+}
+
 func triggerChangeCallback() {
 	if OnDeviceChange != nil {
-		OnDeviceChange(GetDevices())
+		OnDeviceChange(GetActiveDevices())
 	}
 }

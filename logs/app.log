@@ -1,0 +1,32 @@
+[INFO] 2026/10/19 23:27:22 Starting P2P File Transfer Application...
+[INFO] 2026/10/19 23:27:23 TCP Receiver started on :50005
+[INFO] 2026/10/19 23:27:23 WebSocket server starting on :8081
+[INFO] 2026/10/19 23:27:23 Advertising mDNS service: Name=Nitro, Port=50005, IP=192.168.1.14
+[INFO] 2026/10/19 23:27:23 Fiber web server starting on http://localhost:8080
+[INFO] 2026/10/19 23:27:24 Opening dashboard in browser...
+[INFO] 2026/10/19 23:27:25 WebSocket client connected
+[INFO] 2026/10/19 23:31:53 Received OS signal: terminated. Shutting down...
+[INFO] 2026/10/19 23:31:53 Discovery service stopped
+[INFO] 2026/10/19 23:31:53 TCP Receiver stopped
+[INFO] 2026/10/20 08:48:01 Starting P2P File Transfer Application...
+[INFO] 2026/10/20 08:48:06 TCP Receiver started on :50005
+[INFO] 2026/10/20 08:48:06 WebSocket server starting on :8081
+[INFO] 2026/10/20 08:48:06 Advertising mDNS service: Name=Nitro, Port=50005, IP=10.10.202.197
+[INFO] 2026/10/20 08:48:06 Fiber web server starting on http://localhost:8080
+[INFO] 2026/10/20 08:48:07 Opening dashboard in browser...
+[INFO] 2026/10/20 08:48:08 WebSocket client connected
+[INFO] 2026/10/20 08:49:37 Device discovered/updated: DESKTOP-QJIC2BU-P2P (DESKTOP-QJIC2BU) at 10.10.202.242:50005, status: online
+[INFO] 2026/10/20 08:50:08 WebSocket client disconnected
+[INFO] 2026/10/20 08:50:08 WebSocket client connected
+[INFO] 2026/10/20 08:50:09 WebSocket client disconnected
+[INFO] 2026/10/20 08:50:09 WebSocket client connected
+[INFO] 2026/10/20 08:50:28 WebSocket client disconnected
+[INFO] 2026/10/20 08:50:28 WebSocket client connected
+[INFO] 2026/10/20 08:50:29 WebSocket client disconnected
+[INFO] 2026/10/20 08:50:29 WebSocket client connected
+[INFO] 2026/10/20 08:50:30 WebSocket client disconnected
+[INFO] 2026/10/20 08:50:30 WebSocket client connected
+[INFO] 2026/10/20 08:50:40 Starting transfer sender 910b3920-a691-49d1-96dc-ed50fff9dace to DESKTOP-QJIC2BU-P2P (10.10.202.242)
+[INFO] 2026/10/20 08:51:04 Received OS signal: terminated. Shutting down...
+[INFO] 2026/10/20 08:51:04 Discovery service stopped
+[INFO] 2026/10/20 08:51:04 TCP Receiver stopped
