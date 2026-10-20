@@ -30,3 +30,69 @@
 [INFO] 2026/10/20 08:51:04 Received OS signal: terminated. Shutting down...
 [INFO] 2026/10/20 08:51:04 Discovery service stopped
 [INFO] 2026/10/20 08:51:04 TCP Receiver stopped
+[INFO] 2026/10/20 08:59:55 Starting P2P File Transfer Application...
+[INFO] 2026/10/20 08:59:58 TCP Receiver started on :50005
+[INFO] 2026/10/20 08:59:58 WebSocket server starting on :8081
+[INFO] 2026/10/20 08:59:58 Advertising mDNS service: Name=Nitro, Port=50005, IP=10.10.202.197
+[INFO] 2026/10/20 08:59:58 Fiber web server starting on http://localhost:8080
+[INFO] 2026/10/20 08:59:59 Opening dashboard in browser...
+[INFO] 2026/10/20 08:59:59 WebSocket client connected
+[INFO] 2026/10/20 09:00:05 Device discovered/updated: DESKTOP-QJIC2BU-P2P (DESKTOP-QJIC2BU) at 10.10.202.242:50005, status: online
+[INFO] 2026/10/20 09:01:01 Device timed out: DESKTOP-QJIC2BU-P2P (DESKTOP-QJIC2BU)
+[INFO] 2026/10/20 09:01:13 Device discovered/updated: DESKTOP-QJIC2BU-P2P (DESKTOP-QJIC2BU) at 10.10.202.242:50005, status: online
+[INFO] 2026/10/20 09:01:46 Device timed out: DESKTOP-QJIC2BU-P2P (DESKTOP-QJIC2BU)
+[INFO] 2026/10/20 09:02:28 Device discovered/updated: DESKTOP-QJIC2BU-P2P (DESKTOP-QJIC2BU) at 10.10.202.242:50005, status: online
+[INFO] 2026/10/20 09:02:35 Starting transfer sender ab6b9cc9-21a9-473d-af87-e400678f34fe to DESKTOP-QJIC2BU-P2P (10.10.202.242)
+[INFO] 2026/10/20 09:02:41 Transfer sender completed for ID: ab6b9cc9-21a9-473d-af87-e400678f34fe
+[INFO] 2026/10/20 09:09:15 Starting P2P File Transfer Application...
+[ERROR] 2026/10/20 09:09:17 logger.go:73: Failed to start TCP file receiver: failed to start TCP listener on port 50005: listen tcp :50005: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+[INFO] 2026/10/20 09:09:35 Received OS signal: terminated. Shutting down...
+[INFO] 2026/10/20 09:09:35 Discovery service stopped
+[INFO] 2026/10/20 09:09:35 TCP Receiver stopped
+[INFO] 2026/10/20 09:09:37 Starting P2P File Transfer Application...
+[INFO] 2026/10/20 09:09:39 TCP Receiver started on :50005
+[INFO] 2026/10/20 09:09:39 WebSocket server starting on :8081
+[INFO] 2026/10/20 09:09:39 Advertising mDNS service: Name=Nitro, Port=50005, IP=10.10.202.197
+[INFO] 2026/10/20 09:09:39 Fiber web server starting on http://localhost:8080
+[INFO] 2026/10/20 09:09:39 Device discovered/updated: DESKTOP-QJIC2BU-P2P (DESKTOP-QJIC2BU) at 10.10.202.242:50005, status: online
+[INFO] 2026/10/20 09:09:40 Opening dashboard in browser...
+[INFO] 2026/10/20 09:09:41 WebSocket client connected
+[INFO] 2026/10/20 09:09:42 WebSocket client connected
+[INFO] 2026/10/20 09:09:58 WebSocket client disconnected
+[INFO] 2026/10/20 09:09:58 WebSocket client connected
+[INFO] 2026/10/20 09:11:57 Received OS signal: terminated. Shutting down...
+[INFO] 2026/10/20 09:11:57 Discovery service stopped
+[INFO] 2026/10/20 09:11:57 TCP Receiver stopped
+[INFO] 2026/10/20 09:12:02 Starting P2P File Transfer Application...
+[INFO] 2026/10/20 09:12:04 TCP Receiver started on :50005
+[INFO] 2026/10/20 09:12:04 WebSocket server starting on :8081
+[INFO] 2026/10/20 09:12:04 Advertising mDNS service: Name=Nitro, Port=50005, IP=10.10.202.197
+[INFO] 2026/10/20 09:12:04 Fiber web server starting on http://localhost:8080
+[INFO] 2026/10/20 09:12:04 Device discovered/updated: DESKTOP-QJIC2BU-P2P (DESKTOP-QJIC2BU) at 10.10.202.242:50005, status: online
+[INFO] 2026/10/20 09:12:05 Opening dashboard in browser...
+[INFO] 2026/10/20 09:12:06 WebSocket client connected
+[INFO] 2026/10/20 09:12:07 WebSocket client connected
+[INFO] 2026/10/20 09:12:08 WebSocket client connected
+[INFO] 2026/10/20 09:17:58 Received OS signal: terminated. Shutting down...
+[INFO] 2026/10/20 09:17:58 Discovery service stopped
+[INFO] 2026/10/20 09:17:58 TCP Receiver stopped
+[INFO] 2026/10/20 09:18:02 Starting P2P File Transfer Application...
+[INFO] 2026/10/20 09:18:06 TCP Receiver started on :50005
+[INFO] 2026/10/20 09:18:06 WebSocket server starting on :8081
+[INFO] 2026/10/20 09:18:06 Advertising mDNS service: Name=Nitro, Port=50005, IP=10.10.202.197
+[INFO] 2026/10/20 09:18:06 Fiber web server starting on http://localhost:8080
+[INFO] 2026/10/20 09:18:06 Device discovered/updated: DESKTOP-QJIC2BU-P2P (DESKTOP-QJIC2BU) at 10.10.202.242:50005, status: online
+[INFO] 2026/10/20 09:18:07 Opening dashboard in browser...
+[INFO] 2026/10/20 09:18:08 WebSocket client connected
+[INFO] 2026/10/20 09:18:10 WebSocket client connected
+[INFO] 2026/10/20 09:18:10 WebSocket client connected
+[INFO] 2026/10/20 09:18:10 WebSocket client connected
+[INFO] 2026/10/20 09:19:24 Starting transfer sender c96cd5c6-7d44-4061-aff1-8ace07bd8380 to DESKTOP-QJIC2BU-P2P (10.10.202.242)
+[INFO] 2026/10/20 09:19:31 Transfer sender completed for ID: c96cd5c6-7d44-4061-aff1-8ace07bd8380
+[INFO] 2026/10/20 09:20:27 Incoming connection from DESKTOP-QJIC2BU-P2P (10.10.202.242)
+[INFO] 2026/10/20 09:20:27 Starting transfer receiver for ID: 125a66f3-ce83-4a86-aa9d-2affb2a110c8
+[INFO] 2026/10/20 09:20:27 Transfer receiver completed for ID: 125a66f3-ce83-4a86-aa9d-2affb2a110c8
+[INFO] 2026/10/20 09:21:09 Device timed out: DESKTOP-QJIC2BU-P2P (DESKTOP-QJIC2BU)
+[INFO] 2026/10/20 09:21:24 Received OS signal: terminated. Shutting down...
+[INFO] 2026/10/20 09:21:24 Discovery service stopped
+[INFO] 2026/10/20 09:21:24 TCP Receiver stopped

@@ -81,6 +81,22 @@ func Start(port int) {
 		if err := c.BodyParser(&settings); err != nil {
 			return c.Status(400).JSON(fiber.Map{"error": err.Error()})
 		}
+		if strings.TrimSpace(settings.DownloadDir) == "" {
+			return c.Status(400).JSON(fiber.Map{"error": "Download directory cannot be empty."})
+		}
+		downloadDirCreated := false
+		if info, err := os.Stat(settings.DownloadDir); err == nil {
+			if !info.IsDir() {
+				return c.Status(400).JSON(fiber.Map{"error": "Download path must be a folder."})
+			}
+		} else if os.IsNotExist(err) {
+			if err := os.MkdirAll(settings.DownloadDir, 0755); err != nil {
+				return c.Status(400).JSON(fiber.Map{"error": "Could not create download directory."})
+			}
+			downloadDirCreated = true
+		} else {
+			return c.Status(400).JSON(fiber.Map{"error": "Could not access download directory."})
+		}
 
 		oldPort := config.Get().TransferPort
 		oldDiscovery := config.Get().EnableDiscovery
@@ -111,7 +127,14 @@ func Start(port int) {
 		}
 
 		websocket.Broadcast("config_update", settings)
-		return c.JSON(settings)
+		downloadDirStatus := "existing"
+		if downloadDirCreated {
+			downloadDirStatus = "created"
+		}
+		return c.JSON(struct {
+			models.Settings
+			DownloadDirStatus string `json:"downloadDirStatus"`
+		}{Settings: settings, DownloadDirStatus: downloadDirStatus})
 	})
 
 	// Get current active devices

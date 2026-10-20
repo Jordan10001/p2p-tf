@@ -195,16 +195,28 @@ function App() {
   const saveSettings = async (event) => {
     event.preventDefault();
     const form = new FormData(event.currentTarget);
+    const downloadDir = String(form.get('downloadDir') || '');
+    if (!downloadDir.trim()) {
+      toast('error', 'Download directory cannot be empty.');
+      return;
+    }
     const value = (key) => form.get(key) === 'on';
     const update = {
       deviceId: settings.deviceId,
       deviceName: form.get('deviceName'), hostname: settings.hostname,
-      transferPort: Number(form.get('transferPort')), downloadDir: form.get('downloadDir'),
+      transferPort: Number(form.get('transferPort')), downloadDir,
       showNotifications: value('showNotifications'), showTransferCompleteNotification: value('showTransferCompleteNotification'),
       autoOpenFolder: value('autoOpenFolder'), autoAccept: value('autoAccept'), enableDiscovery: value('enableDiscovery'),
       autoScan: value('autoScan'), minimizeToTray: value('minimizeToTray'), startWithWindows: value('startWithWindows'),
     };
-    try { await post('/settings', update); await loadSettings(); toast('success', 'Configuration updated successfully'); }
+    try {
+      const result = await post('/settings', update);
+      await loadSettings();
+      const folderMessage = result.downloadDirStatus === 'created'
+        ? `Created download folder: ${downloadDir}`
+        : `Using existing download folder: ${downloadDir}`;
+      toast('success', `Configuration updated successfully. ${folderMessage}`);
+    }
     catch (error) { toast('error', error.message); }
   };
   const resolveIncoming = async (accepted) => {
